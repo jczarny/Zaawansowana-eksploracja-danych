@@ -1,0 +1,440 @@
+---
+title: "Raport dot. elektrod grafenowych"
+author: "Jakub Czarnecki"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    number_sections: true
+---
+
+## Podsumowanie
+
+Niniejszy raport przedstawia szczegółówą analizę właściwości elektrod grafenowych na podstawie zbioru danych. Dane zawierają 925 próbek, z czego znaczna jej część jest niekompletna. Do ich uzupełnienia zastosowano metodę k-nearest neighbors. Następnie przeprowadzono analizę statystyczną, sprawdzono rozkłady wartości atrybutów oraz, na podstawie macierzy korelacji, znaleziono kilka ciekawych zależności.
+
+Jako rezultat przeprowadzonej analizy zaobserwowano: \
+1. **Udział węgla ma istotny wpływ na właściwości materiału**. Zwiększenie zawartości węgla w materiale wysoce wpływa na zmniejszoną pojemność materiału. W zamian zyskujemy zwiększenie okna stabilności.\
+2. **Pojemność rośnie wraz z udziałem tlenu**. Niski udział tlenu (<25%) praktycznie gwarantuje niską pojemność materiału, ale zapewnia wysokie okno stabilności. Udziął azotu ma natomiast marginalny wpływ na pojemność.\
+3. **Pojemność jest negatywnie skorelowana z oknem stabilności**. Trudno jest znaleźć materiał który ma jednocześnie wysoką stabilność i ma dużą pojemność.
+
+W części modelowania podjęto próbę przewidzenia pojemności materiału na podstawie pozostałych informacji ze zbioru. Skorzystano z dwóch modeli uczenia maszynowego: \
+1. **Model regresji liniowej**, który okazał się niewystarczający, szczególnie dla próbek o wysokiej pojemności,\
+2. **Model Random Forest**, który poradził sobie zdecydowanie lepiej, dla niższych wartości pojemności trafia praktycznie w punkt, a dla wyższych tylko nieznacznie je niedoszacowuje.
+
+Na zakończenie zastosowano analizę SHAP dla modelu Random Forest pokazując przykładowe rozumowanie algorytmu.
+
+## Przygotowanie zbioru do analizy
+
+### Wykorzystane biblioteki
+Do przygotowania raportu skorzystano z następujących bibliotek przedstawionych na zajęciach:
+```{r settings, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE)
+options(scipen=999)
+```
+
+```{r setup}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(ggsci)
+library(VIM)
+library(tibble)
+library(knitr)
+library(plotly)
+library(randomForest)
+library(caret)
+library(shapper)
+library("DALEX2")
+```
+
+### Zapewnienie powtarzalności wyników.
+Dla zapewnienia powtarzalności wyników skorzystano z funkcji set.seed()
+```{r setSeed}
+set.seed(123)
+```
+
+### Wczytanie danych
+Zbiór danych dotyczy właściwości elektrod grafenowych i zawiera szczegółowe informacje na temat ich budowy, warunków testowania oraz uzyskanej wydajności. 
+
+Plik jest wczytywany przy założeniu, że jest umieszczony w tym samym katalogu co plik z tym raportem.
+```{r loaddata}
+df <- read.csv('data.csv')
+df <- as_tibble(df)
+```
+
+Wszystkie kolumny zostały przemianowane na jej skrócone odpowiedniki, aby ułatwić przetwarzanie danych. Usunięto kolumnę ref, ponieważ jest to jedynie identyfikator którego nie będziemy używać przy analizie danych. Dodatkowo, usuwamy pw_limits, z uwagi na to, że powiela ona informację z pw_low i pw_up
+```{r renameColumns}
+df <- df %>% 
+  rename(
+    ref = `Ref.`,
+    pw_limits = `Limits.of.Potential.Window..V.`,
+    pw_low = `Lower.Limit.of.Potential.Window..V.`,
+    pw_up = `Upper.Limit.of.Potential.Window..V.`,
+    pw = `Potential.Window..V.`,
+    current_density = `Current.Density..A.g.`,
+    capacitance = `Capacitance..F.g.`,
+    ssa = `Specific.Surface.Area..m.2.g.`,
+    rct = `Charge.Transfer.Resistance..Rct...ohm.`,
+    rs = `Equivalent.Series.Resistance..Rs...ohm.`,
+    electrode_conf = `Electrode.Configuration`,
+    pore_size = `Pore.Size..nm.`,
+    pore_volume = `Pore.Volume..cm.3.g.`,
+    id_ig_ratio = `Ratio.of.ID.IG`,
+    n_at = `N.at.`,
+    c_at = `C.at.`,
+    o_at = `O.at.`,
+    electrolyte_formula = `Electrolyte.Chemical.Formula`,
+    electrolyte_cond = `Electrolyte.Ionic.Conductivity`,
+    electrolyte_conc = `Electrolyte.Concentration..M.`,
+    cell_conf = `Cell.Configuration..three.two.electrode.system.`
+  ) %>%
+  select(-ref, -pw_limits)
+head(df)
+```
+### Przetwarzanie brakujących danych
+Poniżej przedstawiona została ilość brakujących danych dla każdej kolumny.
+```{r countNa}
+count(df)
+
+df %>%
+  summarise(across(everything(), ~ sum(is.na(.)))) %>%
+  as.data.frame()
+```
+
+Dodatkowo, później przy analizie danych zauważono, że niektóre wartości kolumn tekstowych są puste, lecz w formie pustej treści a nie jako "NA". Takie przypadki również podmienimy na NA.
+
+```{r}
+df <- df %>%
+    mutate(across(
+      .col = where(is.character),
+      .fns = ~na_if(.x, '')
+    ))
+```
+Skala brakujących danych jest poważna. W kilku kolumnach zdecydowana większość obserwacji ma wartości puste. Jako rozwiązanie zaproponowano zastosowanie algorytmu K-nearest-neighbors, aby uzupełnić kolumny z jak najmniejszym możliwym wpływem na statystyki kolumny jak np. mediana wartości.
+
+Dodatkowo, dla kilku wybranych metryk dodamy nową kolumnę zapisującą informację czy dana wartość była początkowo pusta. Zrobiono to, ponieważ bywają sytuację w których brak informacji również jest wartościową informacją (przykładem - stosunek odmów odpowiedzi w ankietach wyborczych jest różny dla sympatyków różnych partii).
+
+```{r fillNa, results='hide'}
+df <- df %>%
+  mutate(rct_na = is.na(rct), rs_na = is.na(rs), n_at_na = is.na(n_at))
+
+df <- kNN(df, k=5, imp_var = FALSE)
+```
+
+## Analiza zbioru
+
+### Informacje o zbiorze
+Dane po przetworzeniu brakujących danych zawiewrają następujące dane:
+
+- **pw_low, pw_up (V)**: Przedział, w którym testowany materiał pozostawał stabilny.
+- **current_density (A/g)**:  Ilość napięcia na jednostkę masy.
+- **capacitance (F/g)**: Pojemność właściwa, czyli kluczowy parametr wyjściowy określający zdolność materiału elektrody do magazynowania ładunku na jednostkę masy (w faradach na gram).
+- **ssa (m²/g)**: Powierzchnia właściwa (SSA), czyli całkowita powierzchnia materiału elektrody na jednostkę masy (w metrach kwadratowych na gram).
+- **rct (Rct, Ω)**: Opór transferu ładunku pomiędzy elektrodą a elektrolitem.
+- **rs (Rs, Ω)**: Całkowity opór wewnętrzny superkondensatora.
+- **electrode_conf**: Konfiguracja elektrody, opisująca skład chemiczny i strukturę materiału kompozytowego użytego w elektrodzie.
+- **pore_size (nm)**: Rozmiar porów w materiale elektrody (w nanometrach).
+- **pore_volume (cm³/g)**: Całkowita objętość porów na jednostkę masy materiału (w centymetrach sześciennych na gram).
+- **id_ig_ratio**: Wskaźnik poziomu defektów i nieuporządkowania w strukturze grafenu.
+- **n_at (%)**: Procent atomów azotu.  
+- **c_at (%)**: Procent atomów węgla.  
+- **o_at (%)**: Procent atomów tlenu.  
+- **electrolyte_formula**: Wzór chemiczny elektrolitu użytego w badaniach.
+- **electrolyte_cond**: Wartość wskazująca jak dobrze elektrolit przewodzi prąd.
+- **electrolyte_conc (M)**: Stężenie molowe elektrolitu. 
+- **cell_conf**: Konfiguracja ogniwa pomiarowego, określająca, czy w badaniach zastosowano układ dwu- czy trójelektrodowy.
+- **rct_na rs_na n_at_na**: Wartość boolean, opisująca czy kolumny rct, rs, n_at były początkowo puste.
+
+Zbiór zawiera 925 próbek.
+```{r}
+head(df)
+
+nrow(df)
+```
+
+Poniżej wyświetlono kilka metryk dla każdej kolumny ze zbioru
+```{r displayStatistics}
+summary(df)
+```
+
+### Analiza wartości atrybutów
+Poniżej umieszczono rozkłady wartości wszystkich wartości numerycznych
+```{r attributesAnalysis1, echo=FALSE, fig.width=12, fig.height=8}
+df %>%
+  select(where(is.numeric)) %>%
+  gather(key = "variable", value = "value") %>%
+  ggplot(aes(x = value, fill = variable)) +
+  geom_histogram(bins = 20, color = "white", alpha = 0.8) +
+  facet_wrap(~variable, scales = "free") + 
+  theme_light() +
+  theme(legend.position = "none", strip.text = element_text(size = 16))
+```
+
+Widzimy, że wartości w zbiorze są szeroko rozproszone, a często pojawia się w nich szum informacyjny, gdzie maksymalnie kilka wartości odbiega od ogólnego trendu. Spróbujmy odfiltrować ten szum o 10% najniższych i najwyższych wartości.
+
+```{r attributesAnalysis2, echo=FALSE, fig.width=12, fig.height=8}
+df %>%
+  select(where(is.numeric)) %>%
+  gather(key = "variable", value = "value") %>%
+  group_by(variable) %>%
+  filter(
+    value >= quantile(value, 0.10),
+    value <= quantile(value, 0.90)
+  ) %>%
+  ungroup() %>%
+  ggplot(aes(x = value, fill = variable)) +
+  geom_histogram(bins = 10, color = "white", alpha = 0.8) +
+  facet_wrap(~variable, scales = "free") + 
+  theme_light() +
+  theme(legend.position = "none", strip.text = element_text(size = 16))
+```
+
+Oprócz kolumn z wartościami numerycznymi, możemy też skategoryzować atrybut "cell_conf" i policzyć jego występowanie. Podobnie można zrobić dla "electrode_conf" i "electrolyte_formula", lecz liczba ich kategorii jest zbyt duża aby miało sens wyświetlenie ich na wykresach. 
+
+```{r attributesAnalysis3, echo=FALSE, fig.width=12, fig.height=8}
+df %>%
+  select(cell_conf) %>%
+  gather(key = "variable", value = "category") %>%
+  ggplot(aes(x = category, fill = variable)) +
+  geom_bar(color = "white", alpha = 0.8) +
+  facet_wrap(~variable, scales = "free", ncol=1) + 
+  theme_light() +
+  theme(legend.position = "none", strip.text = element_text(size = 16))
+```
+
+### Analiza korelacji między zmiennymi
+Do znalezienia korelacji między zmiennymi wykorzystano macierz korelacji.
+
+```{r correlationAnalysis1, echo=FALSE}
+cor_df <- df %>%
+  select(where(is.numeric)) %>%
+  cor(use = "pairwise.complete.obs") %>%
+  as.data.frame() %>%
+  rownames_to_column(var = "var1") %>%
+  pivot_longer(cols = -var1, names_to = "var2", values_to = "correlation")
+
+ggplot(cor_df, aes(x = var1, y = var2, fill = correlation)) +
+  geom_tile(color = "white") +
+  scale_fill_gradient2(low = "blue", high = "red", mid = "white", 
+                       midpoint = 0, limit = c(-1, 1), space = "Lab", 
+                       name = "Poziom korelacji") +
+  theme_minimal() + 
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, size = 10, hjust = 1),
+        axis.text.y = element_text(size = 10),
+        axis.title = element_blank()) +
+  coord_fixed() +
+  labs(title = "Macierz korelacji")
+```
+
+Wyszukajmy wszystkie koreleacje najbardziej warte odnotowania. Jako takie uznamy takie pary, których korelacja znajduje się między 0.99 i 0.4 oraz między -0.99 i -0.4.
+```{r}
+cor_df_high <- cor_df %>%
+  filter((abs(correlation) > 0.4 & abs(correlation) < 0.99)) %>%
+  filter(var1 > var2) %>%
+  arrange(correlation)
+kable(cor_df_high)
+```
+
+Analizując znalezione korelacje możemy pominąć korelacje pw_up z pw_low oraz pw_up z pw, gdyż wydają się dosyć naturalne. Jako najciekawsze uznałem zależności między:
+- **capacitance a c_at**,
+- **pw a c_at**.
+
+### Analiza trendów
+```{r trendAnalysis1, echo=FALSE}
+p <- df %>%
+  select(c_at, capacitance, pw) %>%
+  pivot_longer(cols = c(capacitance, pw), 
+               names_to = "variable", 
+               values_to = "y_value") %>%
+  ggplot(aes(x = c_at, y = y_value, color = variable)) +
+  geom_point(alpha = 0.6, size = 2) +
+  geom_smooth(method = "lm", se = TRUE, color = "black", linetype = "dashed", linewidth = 0.8) +
+  facet_wrap(~ variable, scales = "free_y", ncol = 2, 
+             labeller = as_labeller(c(
+               "capacitance" = "Capacitance (F/g)",
+               "pw" = "Potential Window (V)"
+             ))) +
+  scale_color_npg() +
+  theme_light() +
+  theme(
+    legend.position = "none",
+    strip.text = element_text(size = 12, face = "bold"),
+    axis.title = element_text(size = 11)
+  ) +
+  labs(
+    x = "Zawartość węgla (c_at %)",
+    y = "Wartość parametru"
+  )
+
+ggplotly(p)
+```
+
+Obydwa wykresy pokazują ciekawe właściwości węgla. Możemy z nich wyczytać, że wraz ze zwiększeniem zawartości węgla w materiale jego pojemność właściwa spada. Z drugiej strony rośnie okno w którym materiał pozostaje stabilny. Sprawdźmy jeszcze zależność między pojemnością a oknem stabilności, aby sprawdzić czy one też nie są ze sobą skorelowane.
+
+```{r trendAnalysis2, echo=FALSE}
+p <- df %>%
+  select(capacitance, pw) %>%
+  pivot_longer(cols = c(pw), 
+               names_to = "variable", 
+               values_to = "y_value") %>%
+  ggplot(aes(x = capacitance, y = y_value, color = variable)) +
+  geom_point(alpha = 0.6, size = 2) +
+  geom_smooth(method = "lm", se = TRUE, color = "black", linetype = "dashed", linewidth = 0.8) +
+  facet_wrap(~ variable, scales = "free_y", ncol = 1, 
+             labeller = as_labeller(c(
+               "pw" = "Potential Window (V)"
+             ))) +
+  scale_color_npg() +
+  theme_light() +
+  theme(
+    legend.position = "none",
+    strip.text = element_text(size = 12, face = "bold"),
+    axis.title = element_text(size = 11)
+  ) +
+  labs(
+    x = "Pojemność właściwa (F/g)",
+    y = "Wartość parametru"
+  )
+
+ggplotly(p)
+```
+
+Jak widać na wykresie, korelacja między nimi również występuje. Natomiast nakreślony trend dla powyżej 2000 F/g jest bardzo wątpliwy z uwagi na stałą wartość 0.5V dla tych pojemności, która może wynikać z metody uzupełniania pustych wartości lub samego zbioru danych.
+
+Przyjrzyjmy się jeszcze pojemności w relacji do składu atomów.
+```{r trendAnalysis3, echo=FALSE}
+p <- df %>%
+  pivot_longer(
+    cols = c(c_at, o_at, n_at), 
+    names_to = "Typ atomu",
+    values_to = "procent"
+  ) %>%
+  ggplot(aes(x = capacitance, y = procent, color = `Typ atomu`)) +
+  geom_point(alpha = 0.3) +
+  geom_smooth(method = "loess", se = FALSE, linewidth = 1.2) +
+  scale_color_npg() +
+  labs(
+    title = "Zmiana pojemności w relacji do składu atomów", 
+    x = "Pojemność właściwa (F/g)", 
+    y = "Procent atomów (%)"
+  ) +
+  theme_light() +
+  theme(
+    legend.position = "top",
+    plot.title = element_text(hjust = 0.5)
+  )
+
+ggplotly(p)
+```
+Z wykresu wyżej widzimy, że większy udział tlenu wspiera do pewnego stopnia pojemność materiału. Tak jak wcześniej zauważyliśmy, wpływ węgla jest negatywny na pojemność, a jego odbicie na końcu prawdopodobnie jest jedynie błędem z powodu małej próbki. Ostatnim wnioskiem jest bardzo niski udział azotu we wszystkich materiałach, a jego zmiana ma marginalny wpływ na pojemność.
+
+### Model przewidywania cech materiałów
+
+W tej części spróbujemy przewidzieć pojemność materiału na podstawie tego zbioru danych.Na początku spróbujmy znaleźć wartościowe parametry. Skorzystamy z poprzedniego kodu. Przyjmijmy, że kolumny warte zachowania to są te których korelacja jest powyżej 0.1 lub poniżej -0.1 (z pominięciem pw_low i pw_up, gdyż zakładam ich dużą korelację z pw).
+
+Spróbujmy zamodelować pojemność regresją liniową.
+```{r}
+cor_df_cap <- cor_df %>%
+  filter(var1 == 'capacitance' & var2 != 'capacitance' & abs(correlation) > 0.1) %>%
+  arrange(correlation)
+kable(cor_df_cap)
+
+df_capacitance <- df %>%
+  select(capacitance, c_at, pw, ssa, pore_volume, id_ig_ratio, o_at)
+```
+
+```{r}
+inTraining <- 
+    createDataPartition(
+        y = df_capacitance$capacitance,
+        p = .75,
+        list = FALSE)
+
+training <- df_capacitance[ inTraining,]
+testing  <- df_capacitance[-inTraining,]
+
+ctrl <- trainControl(
+    method = "repeatedcv",
+    number = 2,
+    repeats = 5
+)
+
+fit <- train(capacitance ~ .,
+             data = training,
+             method = "lm",
+             trControl = ctrl
+)
+rfClasses <- predict(fit, newdata = testing)
+
+metrics <- postResample(pred = rfClasses, obs = testing$capacitance)
+metrics
+
+results_df <- data.frame(
+  Actual = testing$capacitance,
+  Predicted = rfClasses
+)
+
+min_val <- min(c(results_df$Actual, results_df$Predicted))
+max_val <- max(c(results_df$Actual, results_df$Predicted))
+
+p <- ggplot(results_df, aes(x = Actual, y = Predicted)) +
+  geom_point(alpha = 0.6, color = "#1f77b4") +
+  geom_abline(intercept = 0, slope = 1, linetype = "dashed", color = "red", linewidth = 1) +
+  geom_smooth(method = "lm", color = "darkgreen", se = FALSE) +
+  coord_fixed(xlim = c(min_val, max_val), ylim = c(min_val, max_val)) +
+  labs(
+    title = "Prognozowana vs. rzeczywista pojemność - regresja liniowa",
+    x = "Rzeczywista pojemność (F/g)",
+    y = "Przewidywana pojemność (F/g)"
+  ) +
+  theme_minimal()
+
+ggplotly(p)
+```
+
+Na wykresie widzimy 2 linie - zielona to nasz wytrenowany model, a czerwona to idealna regresja dla tego zbioru danych. Jak można na wykresie zauważyć, nasz model kompletnie nie radzi sobie z większymi pojemnościami. Spróbujmy skorzystać z algorytmu Random Forest Regression.
+
+```{r}
+head(training)
+rf_fit <- train(capacitance ~ .,
+               data = training,
+               method = "rf",
+               trControl = ctrl,
+               tuneLength = 3
+)
+rf_predicts <- predict(rf_fit, newdata = testing)
+rf_metrics <- postResample(pred = rf_predicts, obs = testing$capacitance)
+
+results_df <- data.frame(
+  Actual = testing$capacitance,
+  Predicted = rf_predicts
+)
+
+min_val <- min(c(results_df$Actual, results_df$Predicted))
+max_val <- max(c(results_df$Actual, results_df$Predicted))
+
+p <- ggplot(results_df, aes(x = Actual, y = Predicted)) +
+  geom_point(alpha = 0.6, color = "#1f77b4") +
+  geom_abline(intercept = 0, slope = 1, linetype = "solid", color = "red", linewidth = 1) +
+  geom_smooth(method = "lm", color = "darkgreen", se = FALSE, linewidth = 0.8) +
+  coord_fixed(xlim = c(min_val, max_val), ylim = c(min_val, max_val)) +
+  labs(
+    title = "Prognozowana vs. rzeczywista pojemność - RF",
+    x = "Rzeczywista pojemność (F/g)",
+    y = "Przewidywana pojemność (F/g)"
+  ) +
+  theme_minimal()
+
+ggplotly(p)
+```
+
+Jak widzimy na wykresie, algorytm Random Forest poradził sobie o rząd wielkości lepiej aniżeli regresja liniowa. Spójrzmy na sam koniec jak wyglądają przykładowe wartości Shapleya dla jednego przykładu.
+
+```{r, warning = FALSE}
+testing[1,]
+ive_rf <- individual_variable_effect(rf_fit, data = testing,
+                                     new_observation = testing[1,])
+plot(ive_rf)
+```

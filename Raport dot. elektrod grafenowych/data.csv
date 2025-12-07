@@ -1,0 +1,951 @@
+Ref.,Limits of Potential Window (V),Lower Limit of Potential Window (V),Upper Limit of Potential Window (V),Potential Window (V),Current Density (A/g),Capacitance (F/g),Specific Surface Area (m^2/g),Charge Transfer Resistance (Rct) (ohm),Equivalent Series Resistance (Rs) (ohm),Electrode Configuration,Pore Size (nm),Pore Volume (cm^3/g),Ratio of ID/IG,N at%,C at%,O at%,Electrolyte Chemical Formula,Electrolyte Ionic Conductivity,Electrolyte Concentration (M),Cell Configuration (three/two electrode system)
+DOI: 10.1039/c7ta03093b,0 to 0.8,0,0.8,0.8,1,680,186.3,,7.70,CNF/RGO/moOxNy,,,1.45,2.1,,, H2SO4,7,1,three-electrode system
+DOI: 10.1039/c6ta10933k,0 to 1,0,1,1,1,367,537,6.10,1.95,sulfur-doped graphene foam (SGF),,,1.28,0,85.6,9.1,KOH,6,6,two-electrode system
+DOI: 10.1039/c6ta10933k,0 to 1,0,1,1,2,338,537,6.10,1.95,sulfur-doped graphene foam (SGF),,,1.28,0,85.6,9.1,KOH,6,6,two-electrode system
+DOI: 10.1039/c6ta10933k,0 to 1,0,1,1,5,283,537,6.10,1.95,sulfur-doped graphene foam (SGF),,,1.28,0,85.6,9.1,KOH,6,6,two-electrode system
+DOI: 10.1039/c6ta10933k,0 to 1,0,1,1,10,246,537,6.10,1.95,sulfur-doped graphene foam (SGF),,,1.28,0,85.6,9.1,KOH,6,6,two-electrode system
+DOI: 10.1039/d1se01134k,0 to 0.5,0,0.5,0.5,1,872,168.2,,0.80,moS2-moO2/G,,,1.22,,,,KOH,6,2,three-electrode system
+DOI: 10.1039/c8ra08762h,-0.4 to 0.2,-0.4,0.2,0.6,1,143,,,,copper anchored boron doped graphene nanosheet (CuBG) 1,,,1,,,,H2SO4/PVA,,,two-electrode system
+DOI: 10.1039/c8ra08762h,-0.4 to 0.2,-0.4,0.2,0.6,1,306,,,,copper anchored boron doped graphene nanosheet (CuBG) 2,,,1.01,,,,H2SO4/PVA,,,two-electrode system
+DOI: 10.1039/c8ra08762h,-0.4 to 0.2,-0.4,0.2,0.6,1,360,,,,copper anchored boron doped graphene nanosheet (CuBG) 3,,,1.033,,,,H2SO4/PVA,,,two-electrode system
+DOI: 10.1039/c8ra08762h,-0.4 to 0.2,-0.4,0.2,0.6,1,483,,,,copper anchored boron doped graphene nanosheet (CuBG) 4,,,1.21,,,,H2SO4/PVA,,,two-electrode system
+DOI: 10.1039/c8ra08762h,-0.4 to 0.2,-0.4,0.2,0.6,1,420,,,,copper anchored boron doped graphene nanosheet (CuBG) 5,,,1.6,,,,H2SO4/PVA,,,two-electrode system
+DOI: 10.1039/c6ra21281f,0 to 0.45,0,0.45,0.45,30,617,,,,(mn0.5Co2.5O4@G),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1039/c6ra21281f,0 to 0.45,0,0.45,0.45,40,434,,,,(mn0.5Co2.5O4@G),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1039/c6ra21281f,0 to 0.45,0,0.45,0.45,5,1213,,,,(mn0.5Co2.5O4@G),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1039/c6ra21281f,0 to 0.45,0,0.45,0.45,10,897,,,,(mn0.5Co2.5O4@G),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1039/c6ra21281f,0 to 0.45,0,0.45,0.45,15,829,,,,(mn0.5Co2.5O4@G),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1039/c6ra21281f,0 to 0.45,0,0.45,0.45,20,755,,,,(mn0.5Co2.5O4@G),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1039/c6ta02989b,-0.2 to 0.8,-0.2,0.8,1,1,245,,,,d-mnO2(4.0)/(HRGO) fiber,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1039/c5ta10515c,-0.4 to 0.5,-0.4,0.5,0.9,2.5,388,,,,Au-mnO2-graphene/SS in 0.5 m NaOH [1 : 0.01 (mnO2 : Au)],,,,,,,NaOH,,0.1,three-electrode system
+DOI: 10.1039/c5ta10515c,-0.4 to 0.5,-0.4,0.5,0.9,2.5,575,,,,Au-mnO2-graphene/SS in 0.5 m NaOH [1 : 0.01 (mnO2 : Au)],,,,,,,NaOH,,0.5,three-electrode system
+DOI: 10.1039/c5ta10515c,-0.4 to 0.5,-0.4,0.5,0.9,2.5,350,,,,Au-mnO2-graphene/SS in 0.5 m NaOH [1 : 0.01 (mnO2 : Au)],,,,,,,NaOH,,1,three-electrode system
+DOI: 10.1039/c4nr00655k,0 to 0.4,0,0.4,0.4,1.5,1536,,,,Ni(OH)2/N-graphene,,,,,,,KOH,6,,
+DOI: 10.1039/c4nr00655k,0 to 0.4,0,0.4,0.4,3,1424,,,,Ni(OH)2/N-graphene,,,,,,,KOH,6,,
+DOI: 10.1039/c4nr00655k,0 to 0.4,0,0.4,0.4,12,1125,,,,Ni(OH)2/N-graphene,,,,,,,KOH,6,,
+DOI: 10.1039/c4nr00655k,0 to 0.4,0,0.4,0.4,30,922,,,,Ni(OH)2/N-graphene,,,,,,,KOH,6,,
+DOI: 10.1039/c3ta14387b,0 to 1.0,0,1,1,1,242,1675,,,mnO2/rGO,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1039/c3ta14387b,0 to 1.0,0,1,1,2,214,1675,,,mnO2/rGO,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1039/c3ta14387b,0 to 1.0,0,1,1,4,164,1675,,,mnO2/rGO,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1039/c3ta14387b,0 to 1.0,0,1,1,6,122,1675,,,mnO2/rGO,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1039/c3ta14387b,0 to 1.0,0,1,1,8,92,1675,,,mnO2/rGO,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1039/c3ta14387b,-0.6 to 0,-0.6,0,0.6,1,137,1217,,,rGO,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1039/c3ta14387b,-0.6 to 0,-0.6,0,0.6,2,129,1217,,,rGO,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1039/c3ta14387b,-0.6 to 0,-0.6,0,0.6,4,112,1217,,,rGO,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1039/c3ta14387b,-0.6 to 0,-0.6,0,0.6,6,98,1217,,,rGO,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1039/c3ta14387b,-0.6 to 0,-0.6,0,0.6,8,87,1217,,,rGO,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1039/c1gc16134b,0 to 1,0,1,1,,239.6,,,,"graphene/mn3O4
+composite",,,,,,,NaCl,1,0.5,three-electrode system
+DOI: 10.1016/j.electacta.2015.01.082,0 to 1,0,1,1,1,385,1241,,,10 wt.% rGO/HKUST-1 coated on flexible carbon fiber paper (CFP),8.2,0.78,,,,,NaNO3,,1,three-electrode system
+DOI: 10.1016/j.electacta.2018.04.089,0 to 0.75,0,0.75,0.75,0.5,569.4,,3.52,,CuOx@mC700@PANI@rGO,,,,7.41,72.36,19.71,H2SO4 ,7,1,three-electrode system
+DOI: 10.1016/j.electacta.2018.04.089,0 to 0.75,0,0.75,0.75,1,534.5,,3.52,,CuOx@mC700@PANI@rGO,,,,7.41,72.36,19.71,H2SO4 ,7,1,three-electrode system
+DOI: 10.1016/j.electacta.2018.04.089,0 to 0.75,0,0.75,0.75,2,493.6,,3.52,,CuOx@mC700@PANI@rGO,,,,7.41,72.36,19.71,H2SO4 ,7,1,three-electrode system
+DOI: 10.1016/j.electacta.2018.04.089,0 to 0.75,0,0.75,0.75,2,457,,3.52,,CuOx@mC700@PANI@rGO,,,,7.41,72.36,19.71,H2SO4 ,7,1,three-electrode system
+DOI: 10.1016/j.electacta.2018.04.089,0 to 0.75,0,0.75,0.75,5,408.2,,3.52,,CuOx@mC700@PANI@rGO,,,,7.41,72.36,19.71,H2SO4 ,7,1,three-electrode system
+DOI: 10.1016/j.jcis.2019.10.023,0 to 0.5,0,0.5,0.5,1,529,,,,Ni-mOF/rGO,,,,,,,PVA/KOH gel,,,three-electrode system
+DOI: 10.1016/j.jcis.2019.10.023,0 to 0.5,0,0.5,0.5,1,954,,,,Ni-mOF/rGO-300,,,,23.82,36.6,30.94,PVA/KOH gel,,,three-electrode system
+DOI: 10.1016/j.jcis.2019.10.023,0 to 0.5,0,0.5,0.5,2,800,,,,Ni-mOF/rGO-300,,,,23.82,36.6,30.94,PVA/KOH gel,,,three-electrode system
+DOI: 10.1016/j.jcis.2019.10.023,0 to 0.5,0,0.5,0.5,3,750,,,,Ni-mOF/rGO-300,,,,23.82,36.6,30.94,PVA/KOH gel,,,three-electrode system
+DOI: 10.1016/j.jcis.2019.10.023,0 to 0.5,0,0.5,0.5,4,745,,,,Ni-mOF/rGO-300,,,,23.82,36.6,30.94,PVA/KOH gel,,,three-electrode system
+DOI: 10.1016/j.jcis.2019.10.023,0 to 0.5,0,0.5,0.5,5,740,,,,Ni-mOF/rGO-300,,,,23.82,36.6,30.94,PVA/KOH gel,,,three-electrode system
+DOI: 10.1016/j.jpcs.2021.110284,0 to 0.6,0,0.6,0.6,0.5,301,,,,CeO2/rGO,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1016/j.jpcs.2021.110284,0 to 0.6,0,0.6,0.6,1,272,,,,CeO2/rGO,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1016/j.jpcs.2021.110284,0 to 0.6,0,0.6,0.6,2,243,,,,CeO2/rGO,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1016/j.jpcs.2021.110284,0 to 0.6,0,0.6,0.6,4,241,,,,CeO2/rGO,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1016/j.jallcom.2020.155838,-1.1 to -0.2,-1.1,-0.2,0.9,1,258,,,,"G/CNTs/Fe2O3-
+150",,,,,,, Li2SO4,,1,three-electrode system
+DOI: 10.1016/j.jallcom.2020.156346,,,,,0.5,980,85,,,moSmn-1,13.5,0.05061,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1016/j.jallcom.2020.156346,,,,,,,,,,moSmn-2,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1016/j.jallcom.2020.156346,,,,,,,,,,moSmn-3,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1016/j.jallcom.2020.156346,,,,,,,,,,moSmn-4,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1016/j.jallcom.2021.159702,0 to 0.4,0,0.4,0.4,1,460,,,,rGO/CoSx-rGO/rGO,,,1.09,,,,KOH,6,1,three-electrode system
+DOI: 10.1016/j.jallcom.2021.159702,0 to 0.4,0,0.4,0.4,2,265,,,,rGO/CoSx-rGO/rGO,,,1.09,,,,KOH,6,1,three-electrode system
+DOI: 10.1016/j.jallcom.2021.159702,0 to 0.4,0,0.4,0.4,4,236,,,,rGO/CoSx-rGO/rGO,,,1.09,,,,KOH,6,1,three-electrode system
+DOI: 10.1016/j.jallcom.2021.159702,0 to 0.4,0,0.4,0.4,8,170,,,,rGO/CoSx-rGO/rGO,,,1.09,,,,KOH,6,1,three-electrode system
+DOI: 10.1016/j.jallcom.2021.159702,0 to 0.4,0,0.4,0.4,16,136,,,,rGO/CoSx-rGO/rGO,,,1.09,,,,KOH,6,1,three-electrode system
+DOI: 10.1016/j.jallcom.2021.163067,-0.05 to 0.8,-0.05,0.8,0.85,1,357,,,,rGO/mWCNT/ZrO2 (GmZ),,,1.16,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1016/j.jallcom.2021.163067,-0.05 to 0.8,-0.05,0.8,0.85,1.5,212,,,,rGO/mWCNT/ZrO2 (GmZ),,,1.16,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1016/j.jallcom.2021.163067,-0.05 to 0.8,-0.05,0.8,0.85,2,192,,,,rGO/mWCNT/ZrO2 (GmZ),,,1.16,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1016/j.jallcom.2021.163067,-0.05 to 0.8,-0.05,0.8,0.85,2.5,179,,,,rGO/mWCNT/ZrO2 (GmZ),,,1.16,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1016/j.jallcom.2021.163067,-0.05 to 0.8,-0.05,0.8,0.85,3,176,,,,rGO/mWCNT/ZrO2 (GmZ),,,1.16,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1016/j.diamond.2021.108696,0 to 0.8,0,0.8,0.8,0.1,98.2,,,,S-rGO-0.15,,,0.12,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1016/j.diamond.2021.108696,0 to 0.8,0,0.8,0.8,0.1,237.6,,4.11,,S-rGO-0.25,,,0.17,0,84.35,14.56,H2SO4,7,1,three-electrode system
+DOI: 10.1016/j.diamond.2021.108696,0 to 0.8,0,0.8,0.8,0.1,61.7,,,,S-rGO-0.50,,,1.25,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1016/j.compositesb.2017.11.024,-1.0 to 0,-1,0,1,0.2,215,,,,cellulose/mWCNT/rGO/Co3O4/SnO2,,,1.05,,,,,,,three-electrode system
+DOI: 10.1016/j.compositesb.2017.11.024,-1.0 to 0,-1,0,1,0.4,181,,,,cellulose/mWCNT/rGO/Co3O4/SnO2,,,1.05,,,,,,,three-electrode system
+DOI: 10.1016/j.compositesb.2017.11.024,-1.0 to 0,-1,0,1,0.6,179,,,,cellulose/mWCNT/rGO/Co3O4/SnO2,,,1.05,,,,,,,three-electrode system
+DOI: 10.1016/j.compositesb.2017.11.024,-1.0 to 0,-1,0,1,0.8,172,,,,cellulose/mWCNT/rGO/Co3O4/SnO2,,,1.05,,,,,,,three-electrode system
+DOI: 10.1016/j.mssp.2021.106078,0 to 0.45,0,0.45,0.45,3,680,39.142,1.47,,10-rGO/NimoO4,3.492,0.071,1.054,,,,KOH,6,3,three-electrode system
+DOI: 10.1016/j.mssp.2021.106078,0 to 0.45,0,0.45,0.45,4,616,39.142,1.47,,10-rGO/NimoO4,3.492,0.071,1.054,,,,KOH,6,3,three-electrode system
+DOI: 10.1016/j.mssp.2021.106078,0 to 0.45,0,0.45,0.45,5,605,39.142,1.47,,10-rGO/NimoO4,3.492,0.071,1.054,,,,KOH,6,3,three-electrode system
+DOI: 10.1016/j.mssp.2021.106078,0 to 0.45,0,0.45,0.45,6,593,39.142,1.47,,10-rGO/NimoO4,3.492,0.071,1.054,,,,KOH,6,3,three-electrode system
+DOI: 10.1016/j.mssp.2021.106078,0 to 0.45,0,0.45,0.45,7,575,39.142,1.47,,10-rGO/NimoO4,3.492,0.071,1.054,,,,KOH,6,3,three-electrode system
+DOI: 10.1016/j.mssp.2021.106078,0 to 0.45,0,0.45,0.45,2,380,34.903,3.47,,5-rGO/NimoO4,3.42,0.066,1.058,,,,KOH,6,3,three-electrode system
+DOI: 10.1016/j.mssp.2021.106078,0 to 0.45,0,0.45,0.45,3,350,34.903,3.47,,5-rGO/NimoO4,3.42,0.066,1.058,,,,KOH,6,3,three-electrode system
+DOI: 10.1016/j.mssp.2021.106078,0 to 0.45,0,0.45,0.45,4,331,34.903,3.47,,5-rGO/NimoO4,3.42,0.066,1.058,,,,KOH,6,3,three-electrode system
+DOI: 10.1016/j.mssp.2021.106078,0 to 0.45,0,0.45,0.45,5,311,34.903,3.47,,5-rGO/NimoO4,3.42,0.066,1.058,,,,KOH,6,3,three-electrode system
+DOI: 10.1016/j.mssp.2021.106078,0 to 0.45,0,0.45,0.45,6,296,34.903,3.47,,5-rGO/NimoO4,3.42,0.066,1.058,,,,KOH,6,3,three-electrode system
+DOI: 10.1016/j.mssp.2021.106078,0 to 0.45,0,0.45,0.45,2,582,10.346,1.54,,15-rGO/NimoO4,4.3365,0.02,1.0447,,,,KOH,6,3,three-electrode system
+DOI: 10.1016/j.mssp.2021.106078,0 to 0.45,0,0.45,0.45,3,574,10.346,1.54,,15-rGO/NimoO4,4.3365,0.02,1.0447,,,,KOH,6,3,three-electrode system
+DOI: 10.1016/j.mssp.2021.106078,0 to 0.45,0,0.45,0.45,4,550,10.346,1.54,,15-rGO/NimoO4,4.3365,0.02,1.0447,,,,KOH,6,3,three-electrode system
+DOI: 10.1016/j.mssp.2021.106078,0 to 0.45,0,0.45,0.45,5,533,10.346,1.54,,15-rGO/NimoO4,4.3365,0.02,1.0447,,,,KOH,6,3,three-electrode system
+DOI: 10.1016/j.mssp.2021.106078,0 to 0.45,0,0.45,0.45,6,520,10.346,1.54,,15-rGO/NimoO4,4.3365,0.02,1.0447,,,,KOH,6,3,three-electrode system
+DOI: 10.1016/j.mssp.2021.106078,0 to 0.45,0,0.45,0.45,7,513,10.346,1.54,,15-rGO/NimoO4,4.3365,0.02,1.0447,,,,KOH,6,3,three-electrode system
+DOI: 10.1016/j.cej.2021.129396,-0.4 to 0.5,-0.4,0.5,0.9,1,397,,2.30,,G-Ni-W,,,1.013,0,67.94,27.23,Na2SO4,3,1,three-electrode system
+DOI: 10.1016/j.cej.2021.129396,-0.4 to 0.7,-0.4,0.7,1.1,1,557,,0.98,,PPy-G-Ni-W,,,,23.74,66.2,7.51,Na2SO4,3,1,three-electrode system
+DOI: 10.1016/j.cej.2021.131535,-0.3 to 0.4,-0.3,0.4,0.7,1,298,83.11,0.52,,CCS@GO,16.247,0.2913,0.865,0,12.35,6.84,KOH,6,3,three-electrode system
+DOI: 10.1016/j.cej.2021.131535,-0.3 to 0.4,-0.3,0.4,0.7,8,152,83.11,0.52,,CCS@GO,16.247,0.2913,0.865,0,12.35,6.84,KOH,6,3,three-electrode system
+DOI: 10.1016/j.cej.2021.131535,-0.3 to 0.4,-0.3,0.4,0.7,1,119,57.44,,,CuSe@GO,27.733,0.2391,0.849,,,,KOH,6,3,three-electrode system
+DOI: 10.1016/j.cej.2021.131535,-0.3 to 0.4,-0.3,0.4,0.7,1,206,39.34,,,CoSe2@GO,44.131,0.2181,0.852,,,,KOH,6,3,three-electrode system
+DOI: 10.1016/j.jelechem.2019.01.051,-0.2 to 0.6,-0.2,0.6,0.8,0.5,178,18.3,,,C-POmOF@rGO,,,,,,,,,,
+DOI: 10.1016/j.jelechem.2019.01.051,-0.2 to 0.6,-0.2,0.6,0.8,1,157,18.3,,,C-POmOF@rGO,,,,,,,,,,
+DOI: 10.1016/j.jelechem.2019.01.051,-0.2 to 0.6,-0.2,0.6,0.8,2,146,18.3,,,C-POmOF@rGO,,,,,,,,,,
+DOI: 10.1016/j.jelechem.2019.01.051,-0.2 to 0.6,-0.2,0.6,0.8,3,137,18.3,,,C-POmOF@rGO,,,,,,,,,,
+DOI: 10.1016/j.jelechem.2019.01.051,-0.2 to 0.6,-0.2,0.6,0.8,5,82,18.3,,,C-POmOF@rGO,,,,,,,,,,
+DOI: 10.1016/j.jelechem.2019.113193,0 to 0.9,0,0.9,0.9,1,176,,,,HQSA-rGO/CF,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1016/j.jelechem.2019.113193,0 to 0.9,0,0.9,0.9,0.5,220,,,,HQSA-rGO/CF,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1016/j.matpr.2019.03.211,0 to 1.0,0,1,1,2,50,870,,,AC/CuO (5%) RGO (2%),,,,,,,KOH,6,3,
+DOI: 10.1016/j.matpr.2019.03.211,0 to 1.0,0,1,1,2,34,678,,,AC/TiO2 (5%) RGO (2%),,,,,,,KOH,6,3,
+DOI: 10.1016/j.matpr.2019.03.211,0 to 1.0,0,1,1,2,80,1120,,,AC/mO2 (5%) RGO (2%),,,,,,,KOH,6,3,
+DOI: 10.1016/j.est.2020.101539,-0.2 to 0.7,-0.2,0.7,0.9,0.57,910,99.5,8.50,,HOrGO/TmOs,,,0.76,0,58.35,14.73,KOH,6,0.1,
+DOI: 10.1016/j.est.2021.102724,-0.4 to 0.7,-0.4,0.7,1.1,2.5,270.5,133.2,18.50,8.70,rGO@Co3O4/CoO,,,0.88,0,37.32,35.72,KOH,6,0.1,three-electrode system
+DOI: 10.1016/j.est.2021.102724,-0.4 to 0.7,-0.4,0.7,1.1,2.75,209.2,133.2,18.50,8.70,rGO@Co3O4/CoO,,,0.88,0,37.32,35.72,KOH,6,0.1,three-electrode system
+DOI: 10.1016/j.est.2021.102724,-0.4 to 0.7,-0.4,0.7,1.1,3,175.3,133.2,18.50,8.70,rGO@Co3O4/CoO,,,0.88,0,37.32,35.72,KOH,6,0.1,three-electrode system
+DOI: 10.1016/j.est.2021.102724,-0.4 to 0.7,-0.4,0.7,1.1,3.25,160.6,133.2,18.50,8.70,rGO@Co3O4/CoO,,,0.88,0,37.32,35.72,KOH,6,0.1,three-electrode system
+DOI: 10.1016/j.est.2021.102724,-0.4 to 0.7,-0.4,0.7,1.1,3.5,140.7,133.2,18.50,8.70,rGO@Co3O4/CoO,,,0.88,0,37.32,35.72,KOH,6,0.1,three-electrode system
+DOI: 10.1016/j.est.2021.102724,-0.4 to 0.7,-0.4,0.7,1.1,3.75,130.1,133.2,18.50,8.70,rGO@Co3O4/CoO,,,0.88,0,37.32,35.72,KOH,6,0.1,three-electrode system
+DOI: 10.1016/j.est.2021.102724,-0.4 to 0.7,-0.4,0.7,1.1,4,122.5,133.2,18.50,8.70,rGO@Co3O4/CoO,,,0.88,0,37.32,35.72,KOH,6,0.1,three-electrode system
+DOI: 10.1016/j.est.2021.102724,-0.4 to 0.7,-0.4,0.7,1.1,4.25,118.3,133.2,18.50,8.70,rGO@Co3O4/CoO,,,0.88,0,37.32,35.72,KOH,6,0.1,three-electrode system
+DOI: 10.1016/j.surfin.2021.101572,-0.5 to 0.5,-0.5,0.5,1,1,442,128,1.54,,Fe-PrGO,,,0.97,8.91,71.45,15.5,KCl,4,1,three-electrode system
+DOI: 10.1016/j.surfin.2021.101572,-0.5 to 0.5,-0.5,0.5,1,1,252,92,,,PrGO,,,0.71,,,,KCl,4,1,three-electrode system
+DOI: 10.1021/am5042065,0 to 1.0,0,1,1,0.2,223,830,,,nitrogen-doped graphene aerogel (NGA),10.8,1.6,0.97,8.4,82.4,9.2,H2SO4,7,1,two-electrode system
+DOI: 10.1021/am5042065,0 to 1.0,0,1,1,10,176,830,,,nitrogen-doped graphene aerogel (NGA),10.8,1.6,0.97,8.4,82.4,9.2,H2SO4,7,1,two-electrode system
+DOI: 10.1021/am4003827,0 to 0.8,0,0.8,0.8,1,614,,,,PANI-HS36@ERGO hybrids,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/am2016848,0 to 1.0,0,1,1,5,105,265,,,mnC/RGO (mnC-G37),,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1021/am2016848,0 to 1.0,0,1,1,0.2,193,265,,,mnC/RGO (mnC-G37),,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1021/am2016848,0 to 1.0,0,1,1,0.2,69,371,,,CNT-G,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1021/am403663f,-0.1 to 0.9,-0.1,0.9,1,1,275,,,,WS2/RGO,,,,,,,Na2SO4,3,1,two-electrode system
+DOI: 10.1021/am403663f,-0.1 to 0.9,-0.1,0.9,1,0.5,350,,,,WS2/RGO,,,,,,,Na2SO4,3,1,two-electrode system
+DOI: 10.1021/am402686r,-1.0 to 0,-1,0,1,1,370,463,,,TTNAG graphene framework,,2.23,,6.59,54.18,,NaOH,,6,three-electrode system
+DOI: 10.1021/am402686r,-1.0 to 0,-1,0,1,2,290,463,,,TTNAG graphene framework,,2.23,,6.59,54.18,,NaOH,,6,three-electrode system
+DOI: 10.1021/am402686r,-1.0 to 0,-1,0,1,5,250,463,,,TTNAG graphene framework,,2.23,,6.59,54.18,,NaOH,,6,three-electrode system
+DOI: 10.1021/am402686r,-1.0 to 0,-1,0,1,10,210,463,,,TTNAG graphene framework,,2.23,,6.59,54.18,,NaOH,,6,three-electrode system
+DOI: 10.1021/am402686r,-1.0 to 0,-1,0,1,15,190,463,,,TTNAG graphene framework,,2.23,,6.59,54.18,,NaOH,,6,three-electrode system
+DOI: 10.1021/am402686r,-1.0 to 0,-1,0,1,20,180,463,,,TTNAG graphene framework,,2.23,,6.59,54.18,,NaOH,,6,three-electrode system
+DOI: 10.1021/am402686r,-1.0 to 0,-1,0,1,1,195,215,,,TTG,,1.01,,,,,NaOH,,6,three-electrode system
+DOI: 10.1021/am402686r,-1.0 to 0,-1,0,1,2,150,215,,,TTG,,1.01,,,,,NaOH,,6,three-electrode system
+DOI: 10.1021/am402686r,-1.0 to 0,-1,0,1,5,125,215,,,TTG,,1.01,,,,,NaOH,,6,three-electrode system
+DOI: 10.1021/am402686r,-1.0 to 0,-1,0,1,10,100,215,,,TTG,,1.01,,,,,NaOH,,6,three-electrode system
+DOI: 10.1021/am402686r,-1.0 to 0,-1,0,1,15,90,215,,,TTG,,1.01,,,,,NaOH,,6,three-electrode system
+DOI: 10.1021/am402686r,-1.0 to 0,-1,0,1,20,80,215,,,TTG,,1.01,,,,,NaOH,,6,three-electrode system
+DOI: 10.1021/acssuschemeng.9b00233,0 to 1.0,0,1,1,1,354,,,,"oxygen-richhierarchical porous graphene (O-PG)",,,1.21,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1021/acssuschemeng.8b05132,0 to 0.45,0,0.45,0.45,4,205.12,,,,"WO3-rGO hybrid
+(WG-20)",,,,,,,KOH,6,3,three-electrode system
+DOI: 10.1021/acssuschemeng.8b05132,0 to 0.45,0,0.45,0.45,12,128.89,,,,"WO3-rGO hybrid
+(WG-20)",,,,,,,KOH,6,3,three-electrode system
+DOI: 10.1021/acssuschemeng.8b05132,0 to 0.45,0,0.45,0.45,4,398,,,,WG-40,,,,,,,KOH,6,3,three-electrode system
+DOI: 10.1021/acssuschemeng.8b05132,0 to 0.45,0,0.45,0.45,12,232,,,,WG-40,,,,,,,KOH,6,3,three-electrode system
+DOI: 10.1021/acssuschemeng.8b05132,0 to 0.45,0,0.45,0.45,4,801.6,38.667,,,WG-80,,,,0,21.33,54.28,KOH,6,3,three-electrode system
+DOI: 10.1021/acssuschemeng.8b05132,0 to 0.45,0,0.45,0.45,5,707.2,38.667,,,WG-80,,,,0,21.33,54.28,KOH,6,3,three-electrode system
+DOI: 10.1021/acssuschemeng.8b05132,0 to 0.45,0,0.45,0.45,8,587.3,38.667,,,WG-80,,,,0,21.33,54.28,KOH,6,3,three-electrode system
+DOI: 10.1021/acssuschemeng.8b05132,0 to 0.45,0,0.45,0.45,10,526,38.667,,,WG-80,,,,0,21.33,54.28,KOH,6,3,three-electrode system
+DOI: 10.1021/acssuschemeng.8b05132,0 to 0.45,0,0.45,0.45,12,447.13,38.667,,,WG-80,,,,0,21.33,54.28,KOH,6,3,three-electrode system
+DOI: 10.1021/acssuschemeng.8b05132,0 to 0.45,0,0.45,0.45,4,227,,,,WG-120,,,,,,,KOH,6,3,three-electrode system
+DOI: 10.1021/acssuschemeng.8b05132,0 to 0.45,0,0.45,0.45,12,132.8,,,,WG-120,,,,,,,KOH,6,3,three-electrode system
+DOI: 10.1021/acssuschemeng.8b04447,-0.2 to 0.8,-0.2,0.8,1,0.5,208.3,,,,PGm-6,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1021/acssuschemeng.8b04447,-0.2 to 0.8,-0.2,0.8,1,1,178.7,,,,PGm-6,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1021/acssuschemeng.8b04447,-0.2 to 0.8,-0.2,0.8,1,2,154.4,,,,PGm-6,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1021/acssuschemeng.8b04447,-0.2 to 0.8,-0.2,0.8,1,5,126,,,,PGm-6,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1021/acssuschemeng.8b04447,-0.2 to 0.8,-0.2,0.8,1,8,110.4,,,,PGm-6,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1021/acssuschemeng.8b04447,-0.2 to 0.8,-0.2,0.8,1,10,107,,,,PGm-6,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1021/acssuschemeng.6b01367,-0.2 to 0.4,-0.2,0.4,0.6,3,1256,,,0.58,"Ternary ZnCo2O4/reduced graphene oxide/NiO
+(ZCGNO)",,,1.1,0,18.45,44.31,KOH,6,6,three-electrode system
+DOI: 10.1021/acssuschemeng.6b01367,-0.2 to 0.4,-0.2,0.4,0.6,5,1115,,,0.58,"Ternary ZnCo2O4/reduced graphene oxide/NiO
+(ZCGNO)",,,1.1,0,18.45,44.31,KOH,6,6,three-electrode system
+DOI: 10.1021/acssuschemeng.6b01367,-0.2 to 0.4,-0.2,0.4,0.6,10,716.6,,,0.58,"Ternary ZnCo2O4/reduced graphene oxide/NiO
+(ZCGNO)",,,1.1,0,18.45,44.31,KOH,6,6,three-electrode system
+DOI: 10.1021/acssuschemeng.6b01367,-0.2 to 0.4,-0.2,0.4,0.6,15,685,,,0.58,"Ternary ZnCo2O4/reduced graphene oxide/NiO
+(ZCGNO)",,,1.1,0,18.45,44.31,KOH,6,6,three-electrode system
+DOI: 10.1021/acssuschemeng.6b01367,-0.2 to 0.4,-0.2,0.4,0.6,25,666.6,,,0.58,"Ternary ZnCo2O4/reduced graphene oxide/NiO
+(ZCGNO)",,,1.1,0,18.45,44.31,KOH,6,6,three-electrode system
+DOI: 10.1021/acsami.9b04649,-0.1 to 0.7,-0.1,0.7,0.8,0.5,147.1,,,,"[Ag5 (C2H2N3) 6 ][H5 ⊂ Simo]@5%GO-based electrode 
+(1@5%GO-based electrode)",,,,,,,H2SO4,7,0.5,three-electrode system
+DOI: 10.1021/acsami.9b04649,-0.1 to 0.7,-0.1,0.7,0.8,0.5,217.1,,,,1@10%GO-based electrode,,,,,,,H2SO4,7,0.5,three-electrode system
+DOI: 10.1021/acsami.9b04649,-0.1 to 0.7,-0.1,0.7,0.8,0.5,230.2,,,,(1@15%GO-based electrode),,,,,,,H2SO4,7,0.5,three-electrode system
+DOI: 10.1021/acsami.9b04649,-0.1 to 0.7,-0.1,0.7,0.8,0.5,104.2,,,,1@20%GO-based electrode,,,,,,,H2SO4,7,0.5,three-electrode system
+DOI: 10.1021/acsami.8b02354,0 to 1.0,0,1,1,1,113,,,,GH,,,1.7,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1021/acsami.8b02354,0 to 1.0,0,1,1,1,200.6,,,,mnO2/GH,,,1.37,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1021/acsami.7b05965,0 to 1.0,0,1,1,1,425,1236,,,F3 film,,,1.01,6.7,79.6,13.7,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.7b05965,0 to 1.0,0,1,1,20,315,1236,,,F3 film,,,1.01,6.7,79.6,13.7,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.7b05965,0 to 1.0,0,1,1,1,290,1150,,,F2 film,,,1.05,3.2,84,12.8,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.7b05965,0 to 1.0,0,1,1,20,203,1150,,,F2 film,,,1.05,3.2,84,12.8,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.7b05965,0 to 1.0,0,1,1,1,228,1162,,,F1 film,,,1.1,2.3,81.3,16.4,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.7b05965,0 to 1.0,0,1,1,20,134.52,1162,,,F1 film,,,1.1,2.3,81.3,16.4,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.6b05415,-1.05 to 0.25,-1.05,0.25,1.3,0.5,586,113.4,,,C-G/AFC,,0.39,,,,,KOH,6,6,three-electrode system
+DOI: 10.1021/acsami.6b05415,-1.05 to 0.25,-1.05,0.25,1.3,1,519,113.4,,,C-G/AFC,,0.39,,,,,KOH,6,6,three-electrode system
+DOI: 10.1021/acsami.6b05415,-1.05 to 0.25,-1.05,0.25,1.3,10,340,113.4,,,C-G/AFC,,0.39,,,,,KOH,6,6,three-electrode system
+DOI: 10.1021/acsami.6b05415,-1.05 to 0.25,-1.05,0.25,1.3,1,319,49.1,,,C-AFC,,0.04,,,,,KOH,6,6,three-electrode system
+DOI: 10.1021/acsami.6b05415,-1.05 to 0.25,-1.05,0.25,1.3,0.5,156,126.4,,,C-G/AC,,0.18,,,,,KOH,6,6,three-electrode system
+DOI: 10.1021/acsami.6b00225,-1.0 to 0,-1,0,1,1,274,,,,Fe2O3NDs@NG-0.75,,,1.04,,,,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.6b00225,-1.0 to 0,-1,0,1,2,234,,,,Fe2O3NDs@NG-0.75,,,1.04,,,,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.6b00225,-1.0 to 0,-1,0,1,5,201,,,,Fe2O3NDs@NG-0.75,,,1.04,,,,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.6b00225,-1.0 to 0,-1,0,1,8,187,,,,Fe2O3NDs@NG-0.75,,,1.04,,,,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.6b00225,-1.0 to 0,-1,0,1,10,181,,,,Fe2O3NDs@NG-0.75,,,1.04,,,,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.6b00225,-1.0 to 0,-1,0,1,20,168,,,,Fe2O3NDs@NG-0.75,,,1.04,,,,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.6b00225,-1.0 to 0,-1,0,1,50,140,,,,Fe2O3NDs@NG-0.75,,,1.04,,,,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.6b00225,-1.0 to 0,-1,0,1,50,140,,,,Fe2O3NDs@NG-0.75,,,1.04,,,,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.6b00225,-1.0 to 0,-1,0,1,1,255,,,,Fe2O3NDs@NG-1,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.6b00225,-1.0 to 0,-1,0,1,1,228,,,,Fe2O3NDs@NG-0.50,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.6b00225,-1.0 to 0,-1,0,1,1,224,,,,Fe2O3NDs@NG-0.25,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.5b10781,0 to 0.5,0,0.5,0.5,1,2474,12.15,,2.00,(Co-LmOF),3.8,0.168,,,,,KOH,6,1,three-electrode system
+DOI: 10.1021/acsami.5b10781,0 to 0.5,0,0.5,0.5,2,1978,12.15,,2.00,(Co-LmOF),3.8,0.168,,,,,KOH,6,1,three-electrode system
+DOI: 10.1021/acsami.5b10781,0 to 0.5,0,0.5,0.5,4,1728,12.15,,2.00,(Co-LmOF),3.8,0.168,,,,,KOH,6,1,three-electrode system
+DOI: 10.1021/acsami.5b10781,0 to 0.5,0,0.5,0.5,6,1607,12.15,,2.00,(Co-LmOF),3.8,0.168,,,,,KOH,6,1,three-electrode system
+DOI: 10.1021/acsami.5b10781,0 to 0.5,0,0.5,0.5,8,1514,12.15,,2.00,(Co-LmOF),3.8,0.168,,,,,KOH,6,1,three-electrode system
+DOI: 10.1021/acsami.5b10781,0 to 0.5,0,0.5,0.5,20,1024,12.15,,2.00,(Co-LmOF),3.8,0.168,,,,,KOH,6,1,three-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,0.7,600.19,,,,3D:Co-nb@CG,,,1.01,0,84.6,10.43,KOH,6,,two-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,1.1,542.73,,,,3D:Co-nb@CG,,,1.01,0,84.6,10.43,KOH,6,,two-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,1.5,509.85,,,,3D:Co-nb@CG,,,1.01,0,84.6,10.43,KOH,6,,two-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,1.9,494.84,,,,3D:Co-nb@CG,,,1.01,0,84.6,10.43,KOH,6,,two-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,2.3,489.87,,,,3D:Co-nb@CG,,,1.01,0,84.6,10.43,KOH,6,,two-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,2.7,484.8,,,,3D:Co-nb@CG,,,1.01,0,84.6,10.43,KOH,6,,two-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,3.1,480.78,,,,3D:Co-nb@CG,,,1.01,0,84.6,10.43,KOH,6,,two-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,3.5,479.83,,,,3D:Co-nb@CG,,,1.01,0,84.6,10.43,KOH,6,,two-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,3.9,479,,,,3D:Co-nb@CG,,,1.01,0,84.6,10.43,KOH,6,,two-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,4.5,478.93,,,,3D:Co-nb@CG,,,1.01,0,84.6,10.43,KOH,6,,two-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,4.5,384.9,,,,Co-np@G,,,0.89,,,,KOH,6,,two-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,4.5,414.6,,,,Co-abd@CG,,,0.99,,,,KOH,6,,two-electrode system
+DOI: 10.1002/smll.201602077,-0.1 to 0.5,-0.1,0.5,0.6,1,1765,,,,3D graphene frameworks/Co3O4,,,,,,,NaOH,,0.1,three-electrode system
+DOI: 10.1002/smll.201602077,-0.1 to 0.5,-0.1,0.5,0.6,5,1517,,,,3D graphene frameworks/Co3O4,,,,,,,NaOH,,0.1,three-electrode system
+DOI: 10.1002/smll.201602077,-0.1 to 0.5,-0.1,0.5,0.6,10,1483,,,,3D graphene frameworks/Co3O4,,,,,,,NaOH,,0.1,three-electrode system
+DOI: 10.1002/smll.201602077,-0.1 to 0.5,-0.1,0.5,0.6,20,1266,,,,3D graphene frameworks/Co3O4,,,,,,,NaOH,,0.1,three-electrode system
+DOI: 10.1002/chem.201501245,0 to 0.8,0,0.8,0.8,0.2,420,20.103,,,PANI-G,16.2,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/chem.201501245,0 to 0.8,0,0.8,0.8,0.2,620,27.884,,,PANI-GN,10.8,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/chem.201501245,0 to 0.8,0,0.8,0.8,0.2,520,36.579,,,PANI-GO,6.2,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/chem.201501245,0 to 0.8,0,0.8,0.8,0.2,863.2,49.023,,,PANI-GS,3.9,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/slct.202101207,-0.2 to 0.8,-0.2,0.8,1,1,184,,,,graphene paper (GP),,,2.4,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/slct.202101207,-0.2 to 0.8,-0.2,0.8,1,2,86,,,,graphene paper (GP),,,2.4,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/slct.202101207,-0.2 to 0.8,-0.2,0.8,1,5,37,,,,graphene paper (GP),,,2.4,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/slct.202101207,-0.2 to 0.8,-0.2,0.8,1,10,18,,,,graphene paper (GP),,,2.4,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/slct.202101207,-0.2 to 0.8,-0.2,0.8,1,1,236,,,,GP/mnO2-10s,,,1.79,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/slct.202101207,-0.2 to 0.8,-0.2,0.8,1,2,181,,,,GP/mnO2-10s,,,1.79,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/slct.202101207,-0.2 to 0.8,-0.2,0.8,1,5,20,,,,GP/mnO2-10s,,,1.79,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/slct.202101207,-0.2 to 0.8,-0.2,0.8,1,10,18,,,,GP/mnO2-10s,,,1.79,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/slct.202101207,-0.2 to 0.8,-0.2,0.8,1,1,410,,,,GP/mnO2-30s,,,1.79,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/slct.202101207,-0.2 to 0.8,-0.2,0.8,1,2,312,,,,GP/mnO2-30s,,,1.79,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/slct.202101207,-0.2 to 0.8,-0.2,0.8,1,5,118,,,,GP/mnO2-30s,,,1.79,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/slct.202101207,-0.2 to 0.8,-0.2,0.8,1,10,25,,,,GP/mnO2-30s,,,1.79,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/slct.202101207,-0.2 to 0.8,-0.2,0.8,1,1,327,,,,GP/mnO2-50s,,,1.79,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/slct.202101207,-0.2 to 0.8,-0.2,0.8,1,2,182,,,,GP/mnO2-50s,,,1.79,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/slct.202101207,-0.2 to 0.8,-0.2,0.8,1,5,116,,,,GP/mnO2-50s,,,1.79,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/slct.202101207,-0.2 to 0.8,-0.2,0.8,1,10,23,,,,GP/mnO2-50s,,,1.79,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/cjoc.201700209,-1.0 to 0,-1,0,1,0.5,458.7,262.1,1.50,,GHs-Glu-best,37,,,0,85.11,14.89,KOH,6,5,three-electrode system
+DOI: 10.1002/cjoc.201700209,-1.0 to 0,-1,0,1,1,384.6,262.1,1.50,,GHs-Glu-best,37,,,0,85.11,14.89,KOH,6,5,three-electrode system
+DOI: 10.1002/cjoc.201700209,-1.0 to 0,-1,0,1,3,250,262.1,1.50,,GHs-Glu-best,37,,,0,85.11,14.89,KOH,6,5,three-electrode system
+DOI: 10.1002/er.3543,0.1 to 0.6,0.1,0.6,0.5,1,122,,,,Graphene/NF,,,0.85,,,,KOH,6,6,three-electrode system
+DOI: 10.1002/er.3543,0.1 to 0.6,0.1,0.6,0.5,2,120,,,,Graphene/NF,,,0.85,,,,KOH,6,6,three-electrode system
+DOI: 10.1002/er.3543,0.1 to 0.6,0.1,0.6,0.5,3,124.4,,,,Graphene/NF,,,0.85,,,,KOH,6,6,three-electrode system
+DOI: 10.1002/er.3543,0.1 to 0.6,0.1,0.6,0.5,4,128,,,,Graphene/NF,,,0.85,,,,KOH,6,6,three-electrode system
+DOI: 10.1002/er.3543,0.1 to 0.6,0.1,0.6,0.5,5,105,,,,Graphene/NF,,,0.85,,,,KOH,6,6,three-electrode system
+DOI: 10.1002/aenm.201401890,0 to 1.0,0,1,1,1,769,,,,"VO/Ultralarge Graphene
+(VURGO)",,,1.82,,,,K2SO4,,0.5,three-electrode system
+DOI: 10.1002/aenm.201401890,0 to 1.0,0,1,1,1,385,,,,"VO/Ultralarge Graphene
+(VURGO)",,,,,,,K2SO4,,0.5,three-electrode system
+DOI: 10.1002/aenm.201401890,0 to 1.0,0,1,1,1,286,,,,URGO,,,,,,,K2SO4,,0.5,three-electrode system
+DOI: 10.1002/ente.202001025,-1.0 to 0,-1,0,1,1,83.4,179,2.20,0.92,G-600,,0.14,2.61,,,,KOH,6,6,three-electrode system
+DOI: 10.1002/ente.202001025,-1.0 to 0,-1,0,1,1,125.1,269,1.20,0.83,G-700,,0.19,2.74,,,,KOH,6,6,three-electrode system
+DOI: 10.1002/ente.202001025,-1.0 to 0,-1,0,1,1,183.9,484,0.40,0.78,G-800,,0.33,2.88,,,,KOH,6,6,three-electrode system
+DOI: 10.1002/ente.202001025,-1.0 to 0,-1,0,1,1,190.6,514,0.20,0.76,G-900,,0.38,2.9,,,,KOH,6,6,three-electrode system
+DOI: 10.1002/ente.202001025,-1.0 to 0,-1,0,1,2,150.7,514,0.20,0.76,G-900,,0.38,2.9,,,,KOH,6,6,three-electrode system
+DOI: 10.1002/ente.202001025,-1.0 to 0,-1,0,1,5,130.7,514,0.20,0.76,G-900,,0.38,2.9,,,,KOH,6,6,three-electrode system
+DOI: 10.1002/ente.202001025,-1.0 to 0,-1,0,1,10,120.1,514,0.20,0.76,G-900,,0.38,2.9,,,,KOH,6,6,three-electrode system
+DOI: 10.1002/ente.201900578,-1.0 to 0,-1,0,1,1,15,314,,,G0-0%,8.2,0.42,0.864,0,88.4,11,KOH,6,6,three-electrode system
+DOI: 10.1002/ente.201900578,-1.0 to 0,-1,0,1,1,120,720,,0.22,G1-5%,1.8,0.24,0.147,0,81,14.7,KOH,6,6,three-electrode system
+DOI: 10.1002/ente.201900578,-1.0 to 0,-1,0,1,10,102,720,,0.22,G1-5%,1.8,0.24,0.147,0,81,14.7,KOH,6,6,three-electrode system
+DOI: 10.1002/ente.201900578,-1.0 to 0,-1,0,1,1,94,546,,0.39,G2-10%,3.1,0.35,0.153,0,96.8,2.9,KOH,6,6,three-electrode system
+DOI: 10.1002/ente.201900578,-1.0 to 0,-1,0,1,10,75.2,546,,0.39,G2-10%,3.1,0.35,0.153,0,96.8,2.9,KOH,6,6,three-electrode system
+DOI: 10.1002/ente.201900578,-1.0 to 0,-1,0,1,1,61,424,,0.48,G3-15%,6.5,0.42,0.201,0,97.3,2.2,KOH,6,6,three-electrode system
+DOI: 10.1002/ente.201900578,-1.0 to 0,-1,0,1,10,42.09,424,,0.48,G3-15%,6.5,0.42,0.201,0,97.3,2.2,KOH,6,6,three-electrode system
+DOI: 10.1002/chem.201605212,0 to 0.55,0,0.55,0.55,1,2258,,,,NF-NN-G-5mg,,,,,,,KOH,6,3,three-electrode system
+DOI: 10.1002/chem.201605212,0 to 0.55,0,0.55,0.55,5,1145,,,,NF-NN-G-5mg,,,,,,,KOH,6,3,three-electrode system
+DOI: 10.1002/chem.201605212,0 to 0.55,0,0.55,0.55,20,1010,,,,NF-NN-G-5mg,,,,,,,KOH,6,3,three-electrode system
+DOI: 10.1002/jctb.6147,-1.0 to 0,-1,0,1,1,225.2,,,,nitrogen-doped graphene (NG-800),,,0.84,12.45,,,KOH,6,6,three-electrode system
+DOI: 10.1002/jctb.6147,-1.0 to 0,-1,0,1,5,188.75,,,,nitrogen-doped graphene (NG-800),,,0.84,12.45,,,KOH,6,6,three-electrode system
+DOI: 10.1002/gch2.201900043,-1.0 to -0.1,-1,-0.1,0.9,0.5,275,1734,,,"N,S-GLC",0.53,0.68,0.89,2.1,92.93,4.26,KOH,6,6,three-electrode system
+DOI: 10.1002/gch2.201900043,-1.0 to -0.1,-1,-0.1,0.9,2,230,1734,,,"N,S-GLC",0.53,0.68,0.89,2.1,92.93,4.26,KOH,6,6,three-electrode system
+DOI: 10.1002/gch2.201900043,-1.0 to -0.1,-1,-0.1,0.9,9,200,1734,,,"N,S-GLC",0.53,0.68,0.89,2.1,92.93,4.26,KOH,6,6,three-electrode system
+DOI: 10.1002/gch2.201900043,-1.0 to -0.1,-1,-0.1,0.9,20,180,1734,,,"N,S-GLC",0.53,0.68,0.89,2.1,92.93,4.26,KOH,6,6,three-electrode system
+DOI: 10.1002/slct.201900242,-1.0 to 0,-1,0,1,2,120,,,,PDA-rGO,,,1.11,,,,,,,three-electrode system
+DOI: 10.1002/slct.201900242,-1.0 to 0,-1,0,1,1,200,,,,PDA-rGO,,,1.11,,,,,,,three-electrode system
+DOI: 10.1002/cjoc.201600217,0 to 0.8,0,0.8,0.8,0.1,321.7,,,,mPG,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/cjoc.201600217,0 to 0.8,0,0.8,0.8,0.1,116.4,,,,PANI/graphene,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/cssc.201500355,0 to 0.5,0,0.5,0.5,0.5,660,140.7,,,3D Co3O4-RGO aerogel,,0.31,,,,,,,,three-electrode system
+DOI: 10.1002/cssc.201500355,0 to 0.5,0,0.5,0.5,10,500,140.7,,,3D Co3O4-RGO aerogel,,0.31,,,,,,,,three-electrode system
+DOI: 10.1002/cssc.201500355,0 to 0.5,0,0.5,0.5,50,430,140.7,,,3D Co3O4-RGO aerogel,,0.31,,,,,,,,three-electrode system
+DOI: 10.1002/APP.44724,0 to 0.8,0,0.8,0.8,0.5,472,,,,Ag-PPy/Gr,,,0.86,,,,KCl,4,1,two-electrode system
+DOI: 10.1002/APP.44724,0 to 0.8,0,0.8,0.8,1,360,,,,Ag-PPy/Gr,,,0.86,,,,KCl,4,1,two-electrode system
+DOI: 10.1002/APP.44724,0 to 0.8,0,0.8,0.8,1.5,260,,,,Ag-PPy/Gr,,,0.86,,,,KCl,4,1,two-electrode system
+DOI: 10.1002/APP.44724,0 to 0.8,0,0.8,0.8,2,210,,,,Ag-PPy/Gr,,,0.86,,,,KCl,4,1,two-electrode system
+DOI: 10.1002/APP.44724,0 to 0.8,0,0.8,0.8,3,190,,,,Ag-PPy/Gr,,,0.86,,,,KCl,4,1,two-electrode system
+DOI: 10.1002/celc.202100235,0 to 1.0,0,1,1,0.5,130,2053,,,annealed a-rGO,,,,,,,TEA-BF4/ acetonitrile,,1,two-electrode system
+DOI: 10.1002/celc.202100235,0 to 1.0,0,1,1,100,84,2053,,,annealed a-rGO,,,,,,,TEA-BF4/ acetonitrile,,1,two-electrode system
+DOI: 10.1002/celc.202100235,0 to 1.0,0,1,1,0.5,131,2034,,,a-rGO,,,,,,,TEA-BF4/ acetonitrile,,1,two-electrode system
+DOI: 10.1002/celc.202100235,0 to 1.0,0,1,1,100,71,2034,,,a-rGO,,,,,,,TEA-BF4/ acetonitrile,,1,two-electrode system
+DOI: 10.1002/open.201900004,0 to 1.0,0,1,1,0.5,153.7,759,,,graphene oxide (GO),,,,0,81.9,18.1,KOH,6,6,two-electrode system
+DOI: 10.1002/open.201900004,0 to 1.0,0,1,1,2,10.9,759,,,graphene oxide (GO),,,,0,81.9,18.1,KOH,6,6,two-electrode system
+DOI: 10.1002/open.201900004,0 to 1.0,0,1,1,0.5,119.6,669,,,"chemically-reduced graphene
+oxide (rGO)",,,,0,94.7,5.3,KOH,6,6,two-electrode system
+DOI: 10.1002/open.201900004,0 to 1.0,0,1,1,2,49.4,669,,,"chemically-reduced graphene
+oxide (rGO)",,,,0,94.7,5.3,KOH,6,6,two-electrode system
+DOI: 10.1002/open.201900004,0 to 1.0,0,1,1,0.5,14.5,341,,,liquid phase exfoliated graphene (LEG),,,,0,97.7,2.3,KOH,6,6,two-electrode system
+DOI: 10.1002/open.201900004,0 to 1.0,0,1,1,2,12.7,341,,,liquid phase exfoliated graphene (LEG),,,,0,97.7,2.3,KOH,6,6,two-electrode system
+DOI: 10.1002/open.201900004,0 to 1.0,0,1,1,0.5,22.4,392,,,cathodic electrochemically exfoliated graphene (CEEG),,,,0,96.1,3.9,KOH,6,6,two-electrode system
+DOI: 10.1002/open.201900004,0 to 1.0,0,1,1,2,20.1,392,,,cathodic electrochemically exfoliated graphene (CEEG),,,,0,96.1,3.9,KOH,6,6,two-electrode system
+DOI: 10.1002/open.201900004,0 to 1.0,0,1,1,0.5,46.7,546,,,anodic electrochemically exfoliated graphene (AEEG),,,,0,90.4,9.6,KOH,6,6,two-electrode system
+DOI: 10.1002/open.201900004,0 to 1.0,0,1,1,2,40.8,546,,,anodic electrochemically exfoliated graphene (AEEG),,,,0,90.4,9.6,KOH,6,6,two-electrode system
+DOI: 10.1002/open.201900004,0 to 1.0,0,1,1,0.5,12.4,378,,,graphene nanoribbons (GNR),,,,0,98.1,1.9,KOH,6,6,two-electrode system
+DOI: 10.1002/open.201900004,0 to 1.0,0,1,1,2,11.5,378,,,graphene nanoribbons (GNR),,,,0,98.1,1.9,KOH,6,6,two-electrode system
+DOI: 10.1002/APP.44808,0 to 0.8,0,0.8,0.8,1,291,,,,PORGO,,,0.88,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/APP.44808,0 to 0.8,0,0.8,0.8,1,1.4,,,,graphene oxide (GO),,,0.79,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/APP.44808,0 to 0.8,0,0.8,0.8,1,217,,,,rGO,,,0.92,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/APP.44808,0 to 0.8,0,0.8,0.8,1,369,,,,PANI-PORGO,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/APP.44808,0 to 0.8,0,0.8,0.8,2,323,,,,PANI-PORGO,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/APP.44808,0 to 0.8,0,0.8,0.8,5,270,,,,PANI-PORGO,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1134/S1070427221030149,0 to 0.8,0,0.8,0.8,4,75.4,,,,multilayer graphene oxide,,,,,,,KOH,6,6,two-electrode system
+DOI: 10.1134/S1070427221030149,0 to 0.8,0,0.8,0.8,1,90,,,,multilayer graphene oxide,,,,,,,KOH,6,6,two-electrode system
+DOI: 10.1134/S1070427221030149,0 to 0.8,0,0.8,0.8,0.1,102.1,,,,multilayer graphene oxide,,,,,,,KOH,6,6,two-electrode system
+DOI: 10.1007/s12678-015-0254-1,0 to 1.0,0,1,1,1,81.14,,,,rGO/mWCNTs/NF,,,0.41,,,,KOH,6,1,two-electrode system
+DOI: 10.1007/s12678-015-0254-1,0 to 1.0,0,1,1,2,49,,,,rGO/mWCNTs/NF,,,0.41,,,,KOH,6,1,two-electrode system
+DOI: 10.1007/s12678-015-0254-1,0 to 1.0,0,1,1,3,25,,,,rGO/mWCNTs/NF,,,0.41,,,,KOH,6,1,two-electrode system
+DOI: 10.1007/s12678-015-0254-1,0 to 1.0,0,1,1,1,29.96,,,,rGO/NF,,,,,,,KOH,6,1,two-electrode system
+DOI: 10.1007/s12678-015-0254-1,0 to 1.0,0,1,1,1,13.25,,,,mWCNTs/NF,,,,,,,KOH,6,1,two-electrode system
+DOI: 10.1007/s10854-020-04085-0,-1.0 to 0,-1,0,1,0.5,822,,1.10,0.33,Fe3O4@N-PG/Ni foam,,,,3.63,32.37,37.15,Na2SO3,5,2,three-electrode system
+DOI: 10.1007/s10854-020-04085-0,-1.0 to 0,-1,0,1,1,799,,1.10,0.33,Fe3O4@N-PG/Ni foam,,,,3.63,32.37,37.15,Na2SO3,5,2,three-electrode system
+DOI: 10.1007/s10854-020-04085-0,-1.0 to 0,-1,0,1,2,775,,1.10,0.33,Fe3O4@N-PG/Ni foam,,,,3.63,32.37,37.15,Na2SO3,5,2,three-electrode system
+DOI: 10.1007/s10854-020-04085-0,-1.0 to 0,-1,0,1,3,738,,1.10,0.33,Fe3O4@N-PG/Ni foam,,,,3.63,32.37,37.15,Na2SO3,5,2,three-electrode system
+DOI: 10.1007/s10854-020-04085-0,-1.0 to 0,-1,0,1,5,692,,1.10,0.33,Fe3O4@N-PG/Ni foam,,,,3.63,32.37,37.15,Na2SO3,5,2,three-electrode system
+DOI: 10.1007/s10854-020-04085-0,-1.0 to 0,-1,0,1,7,657,,1.10,0.33,Fe3O4@N-PG/Ni foam,,,,3.63,32.37,37.15,Na2SO3,5,2,three-electrode system
+DOI: 10.1007/s10854-020-04085-0,-1.0 to 0,-1,0,1,10,631,,1.10,0.33,Fe3O4@N-PG/Ni foam,,,,3.63,32.37,37.15,Na2SO3,5,2,three-electrode system
+DOI: 10.1007/s11804-014-1279-1,-0.1 to 0.35,-0.1,0.35,0.45,4.5,2128,,,,NiS/GNS/CNT,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11804-014-1279-1,-0.1 to 0.35,-0.1,0.35,0.45,9,1621,,,,NiS/GNS/CNT,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11804-014-1279-1,-0.1 to 0.35,-0.1,0.35,0.45,13.6,1397,,,,NiS/GNS/CNT,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11804-014-1279-1,-0.1 to 0.35,-0.1,0.35,0.45,22.7,1158,,,,NiS/GNS/CNT,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1134/S0036024421030080,0 to 0.8,0,0.8,0.8,0.5,1004,178.46,,,GO/mSiO2/PANI,,,,,,,,,,three-electrode system
+DOI: 10.1134/S0036024421030080,0 to 0.8,0,0.8,0.8,2,1050,178.46,,,GO/mSiO2/PANI,,,,,,,,,,three-electrode system
+DOI: 10.1134/S0036024421030080,0 to 0.8,0,0.8,0.8,10,1218,178.46,,,GO/mSiO2/PANI,,,,,,,,,,three-electrode system
+DOI: 10.1134/S107042722008008X,0 to 1.0,0,1,1,0.1,141,,,,GO-TCT-TDDT,,,,,,,H2SO4,7,0.1,three-electrode system
+DOI: 10.1134/S107042722008008X,0 to 1.0,0,1,1,1,119,,,,GO-TCT-TDDT,,,,,,,H2SO4,7,0.1,three-electrode system
+DOI: 10.1134/S107042722008008X,0 to 1.0,0,1,1,2,108,,,,GO-TCT-TDDT,,,,,,,H2SO4,7,0.1,three-electrode system
+DOI: 10.1134/S107042722008008X,0 to 1.0,0,1,1,3,98,,,,GO-TCT-TDDT,,,,,,,H2SO4,7,0.1,three-electrode system
+DOI: 10.1134/S107042722008008X,0 to 1.0,0,1,1,5,80,,,,GO-TCT-TDDT,,,,,,,H2SO4,7,0.1,three-electrode system
+DOI: 10.1007/s10008-019-04394-3,-1.0 to 0,-1,0,1,1,209.32,,,,GH-AgNP (0.01%),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s10008-019-04394-3,-1.0 to 0,-1,0,1,4,178.02,,,,GH-AgNP (0.01%),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s10008-019-04394-3,-1.0 to 0,-1,0,1,1,215.62,,,,GH-AgNP (0.1%),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s10008-019-04394-3,-1.0 to 0,-1,0,1,4,194.38,,,,GH-AgNP (0.1%),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s10008-019-04394-3,-1.0 to 0,-1,0,1,1,194,,,,GH-AgNP (1%),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s10008-019-04394-3,-1.0 to 0,-1,0,1,4,174.76,,,,GH-AgNP (1%),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s10008-019-04394-3,-1.0 to 0,-1,0,1,1,189.33,,,,GH-AgNP (10%),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s10008-019-04394-3,-1.0 to 0,-1,0,1,4,168.27,,,,GH-AgNP (10%),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s10008-019-04394-3,-1.0 to 0,-1,0,1,1,160.94,,,,GH-AgNP (30%),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s10008-019-04394-3,-1.0 to 0,-1,0,1,4,140.6,,,,GH-AgNP (30%),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s10008-019-04394-3,-1.0 to 0,-1,0,1,1,151.72,,,,GH-AgNP (50%),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s10008-019-04394-3,-1.0 to 0,-1,0,1,4,138.28,,,,GH-AgNP (50%),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1557/jmr.2020.93,0 to 0.4,0,0.4,0.4,0.5,645,,,,Ni-BPDC/GO-3,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1557/jmr.2020.93,0 to 0.4,0,0.4,0.4,1,630,,,,Ni-BPDC/GO-3,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1557/jmr.2020.93,0 to 0.4,0,0.4,0.4,2,525,,,,Ni-BPDC/GO-3,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1557/jmr.2020.93,0 to 0.4,0,0.4,0.4,5,487,,,,Ni-BPDC/GO-3,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1557/jmr.2020.93,0 to 0.4,0,0.4,0.4,10,425,,,,Ni-BPDC/GO-3,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1557/jmr.2020.93,0 to 0.4,0,0.4,0.4,20,400,,,,Ni-BPDC/GO-3,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1557/jmr.2020.93,0 to 0.4,0,0.4,0.4,25,375,,,,Ni-BPDC/GO-3,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1557/jmr.2020.93,0 to 0.4,0,0.4,0.4,30,338,,,,Ni-BPDC/GO-3,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1557/jmr.2020.93,0 to 0.4,0,0.4,0.4,40,310,,,,Ni-BPDC/GO-3,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1557/jmr.2020.93,0 to 0.4,0,0.4,0.4,50,300,,,,Ni-BPDC/GO-3,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1557/jmr.2020.93,0 to 0.4,0,0.4,0.4,1,265,,,,Ni-BPDC/GO-1,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1557/jmr.2020.93,0 to 0.4,0,0.4,0.4,1,228,,,,Ni-BPDC/GO-5,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11664-019-07318-z,-0.2 to 0.8,-0.2,0.8,,5.71,423,32.1,,,manganese dioxide-reduced graphene oxide quantum dot-polyaniline (mGP),,0.157,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s11664-019-07318-z,-0.2 to 0.8,-0.2,0.8,1,14.28,186,32.1,,,manganese dioxide-reduced graphene oxide quantum dot-polyaniline (mGP),,0.157,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s11664-019-07318-z,-0.2 to 0.8,-0.2,0.8,1,8,290,32.1,,,manganese dioxide-reduced graphene oxide quantum dot-polyaniline (mGP),,0.157,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s11664-019-07318-z,-0.2 to 0.8,-0.2,0.8,1,11.5,220,32.1,,,manganese dioxide-reduced graphene oxide quantum dot-polyaniline (mGP),,0.157,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10853-017-1118-2,0 to 0.8,0,0.8,0.8,1,682,,,,sulfonated polyaniline/quaternized graphene (s-PANINa/q-graphene),,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10853-017-1118-2,0 to 0.8,0,0.8,0.8,30,477,,,,sulfonated polyaniline/quaternized graphene (s-PANINa/q-graphene),,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10853-017-1118-2,0 to 0.8,0,0.8,0.8,2,672,,,,sulfonated polyaniline/quaternized graphene (s-PANINa/q-graphene),,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10853-017-1118-2,0 to 0.8,0,0.8,0.8,3,660,,,,sulfonated polyaniline/quaternized graphene (s-PANINa/q-graphene),,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10853-017-1118-2,0 to 0.8,0,0.8,0.8,4,647,,,,sulfonated polyaniline/quaternized graphene (s-PANINa/q-graphene),,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10853-017-1118-2,0 to 0.8,0,0.8,0.8,5,638,,,,sulfonated polyaniline/quaternized graphene (s-PANINa/q-graphene),,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10853-017-1118-2,0 to 0.8,0,0.8,0.8,7,625,,,,sulfonated polyaniline/quaternized graphene (s-PANINa/q-graphene),,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10853-017-1118-2,0 to 0.8,0,0.8,0.8,10,607,,,,sulfonated polyaniline/quaternized graphene (s-PANINa/q-graphene),,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1134/S1023193519050094,0 to 0.5,0,0.5,0.5,,,,,,G/Cu(OH)2/Cu,,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1134/S1023193519050094,0 to 0.5,0,0.5,0.5,,,,,,G/mn3O4/Cu(OH)2/Cu,,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1186/s11671-015-0888-1,-0.2 to 0.8,-0.2,0.8,1,1,436,,,,G/PANI nanocomposite (GP 46),,,,,,,H2SO4,7,2,three-electrode system
+DOI: 10.1186/s11671-015-0888-1,-0.2 to 0.8,-0.2,0.8,1,0.2,453,,,,G/PANI nanocomposite (GP 46),,,,,,,H2SO4,7,2,three-electrode system
+DOI: 10.1186/1556-276X-9-535,0 to 1.0,0,1,1,0.2,253,,,,reduced chemically modified graphene oxide (RCmGO-24),,,1.15,1.71,89.34,8.81,H2SO4,7,2,three-electrode system
+DOI: 10.1186/1556-276X-9-535,0 to 1.0,0,1,1,0.5,190,,,,reduced chemically modified graphene oxide (RCmGO-24),,,1.15,1.71,89.34,8.81,H2SO4,7,2,three-electrode system
+DOI: 10.1186/1556-276X-9-535,0 to 1.0,0,1,1,1,157,,,,reduced chemically modified graphene oxide (RCmGO-24),,,1.15,1.71,89.34,8.81,H2SO4,7,2,three-electrode system
+DOI: 10.1007/s10008-017-3788-8,0 to 0.5,0,0.5,0.5,1,546,,0.10,,Ni3V2O8@GO,,,,0,2.7,21.15,KOH,6,6,three-electrode system
+DOI: 10.1007/s10008-017-3788-8,0 to 0.5,0,0.5,0.5,3,350,,0.10,,Ni3V2O8@GO,,,,0,2.7,21.15,KOH,6,6,three-electrode system
+DOI: 10.1007/s10008-017-3788-8,0 to 0.5,0,0.5,0.5,5,296,,0.10,,Ni3V2O8@GO,,,,0,2.7,21.15,KOH,6,6,three-electrode system
+DOI: 10.1007/s10008-017-3788-8,0 to 0.5,0,0.5,0.5,7,260,,0.10,,Ni3V2O8@GO,,,,0,2.7,21.15,KOH,6,6,three-electrode system
+DOI: 10.1007/s10008-017-3788-8,0 to 0.5,0,0.5,0.5,9,245,,0.10,,Ni3V2O8@GO,,,,0,2.7,21.15,KOH,6,6,three-electrode system
+DOI: 10.1007/s11051-017-3778-x,0 to 1.0,0,1,1,0.5,284,1487,,,Activated Carbon Graphene composite (2.5% ACG),2.52,0.406,1.19,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10800-017-1122-x,0 to 1.0,0,1,1,0.5,349,66,2.00,2.16,mnO2/3D-NRGO,,0.5,1.12,4.2,72.9,18.5,Na2SO4,3,1,three-electrode system
+DOI: 10.1007/s10800-017-1122-x,0 to 1.0,0,1,1,1,261,66,2.00,2.16,mnO2/3D-NRGO,,0.5,1.12,4.2,72.9,18.5,Na2SO4,3,1,three-electrode system
+DOI: 10.1007/s10800-017-1122-x,0 to 1.0,0,1,1,2,192,66,2.00,2.16,mnO2/3D-NRGO,,0.5,1.12,4.2,72.9,18.5,Na2SO4,3,1,three-electrode system
+DOI: 10.1007/s10800-017-1122-x,0 to 1.0,0,1,1,4,172,66,2.00,2.16,mnO2/3D-NRGO,,0.5,1.12,4.2,72.9,18.5,Na2SO4,3,1,three-electrode system
+DOI: 10.1007/s12274-012-0284-4,0 to 0.5,0,0.5,0.5,2,1212,,,,3D graphene/Ni(OH)2 (G/Ni(OH)2),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s12274-012-0284-4,0 to 0.5,0,0.5,0.5,4,950,,,,3D graphene/Ni(OH)2 (G/Ni(OH)2),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s12274-012-0284-4,0 to 0.5,0,0.5,0.5,8,890,,,,3D graphene/Ni(OH)2 (G/Ni(OH)2),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s12274-012-0284-4,0 to 0.5,0,0.5,0.5,16,813,,,,3D graphene/Ni(OH)2 (G/Ni(OH)2),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s12274-012-0284-4,0 to 0.5,0,0.5,0.5,2,1327,105,,,G-CNT/Ni(OH)2,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s12274-012-0284-4,0 to 0.5,0,0.5,0.5,4,1100,105,,,G-CNT/Ni(OH)2,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s12274-012-0284-4,0 to 0.5,0,0.5,0.5,8,1000,105,,,G-CNT/Ni(OH)2,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s12274-012-0284-4,0 to 0.5,0,0.5,0.5,16,943,105,,,G-CNT/Ni(OH)2,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s10854-017-8179-5,0 to 1.0,0,1,1,0.2,188.4,,,,LBCs-G-PPy,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10854-017-8179-5,0 to 1.0,0,1,1,0.2,115.6,,,,LBCs-G,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10854-017-8179-5,0 to 1.0,0,1,1,0.2,106.4,,,,LBCs,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10854-020-03855-0,-0.7 to 0.3,-0.7,0.3,0.6,,,253.4,5.63,1.52,CemO/RGO,8.4,,,0.01,25.49,34.97,Na2SO4,3,0.5,three-electrode system
+DOI: 10.1007/s10854-020-03855-0,-0.7 to 0.3,-0.7,0.3,0.6,,,316.6,3.01,1.48,CemO/NPRGO,6,,,3.01,24.32,32.61,Na2SO4,3,0.5,three-electrode system
+DOI: 10.1007/s11581-020-03469-w,0 to 0.45,0,0.45,0.45,1,530.7,,,,indium sulfide nanosheet arrays and three-dimensional multi-layered graphene composite (In2S3 NSA/3D GR),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11581-020-03469-w,0 to 0.45,0,0.45,0.45,2,510,,,,indium sulfide nanosheet arrays and three-dimensional multi-layered graphene composite (In2S3 NSA/3D GR),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11581-020-03469-w,0 to 0.45,0,0.45,0.45,4,480,,,,indium sulfide nanosheet arrays and three-dimensional multi-layered graphene composite (In2S3 NSA/3D GR),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11581-020-03469-w,0 to 0.45,0,0.45,0.45,6,470,,,,indium sulfide nanosheet arrays and three-dimensional multi-layered graphene composite (In2S3 NSA/3D GR),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11581-020-03469-w,0 to 0.45,0,0.45,0.45,8,430,,,,indium sulfide nanosheet arrays and three-dimensional multi-layered graphene composite (In2S3 NSA/3D GR),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11581-020-03469-w,0 to 0.45,0,0.45,0.45,10,406,,,,indium sulfide nanosheet arrays and three-dimensional multi-layered graphene composite (In2S3 NSA/3D GR),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11581-019-03360-3,0 to 0.8,0,0.8,0.8,1,690,,,,"three-dimensional hollow graphene balls 
+(PANI NWA/3D HGBs)",,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s11581-019-03360-3,0 to 0.8,0,0.8,0.8,2,680,,,,"three-dimensional hollow graphene balls 
+(PANI NWA/3D HGBs)",,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s11581-019-03360-3,0 to 0.8,0,0.8,0.8,4,650,,,,"three-dimensional hollow graphene balls 
+(PANI NWA/3D HGBs)",,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s11581-019-03360-3,0 to 0.8,0,0.8,0.8,6,600,,,,"three-dimensional hollow graphene balls 
+(PANI NWA/3D HGBs)",,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s11581-019-03360-3,0 to 0.8,0,0.8,0.8,8,550,,,,"three-dimensional hollow graphene balls 
+(PANI NWA/3D HGBs)",,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s11581-019-03360-3,0 to 0.8,0,0.8,0.8,10,510,,,,"three-dimensional hollow graphene balls 
+(PANI NWA/3D HGBs)",,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s11581-017-2300-x,0 to 0.6,0,0.6,0.6,0.2,660,,,,PANI-GR-mn3O4,,,,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1007/s11581-017-2300-x,0 to 0.6,0,0.6,0.6,0.4,600,,,,PANI-GR-mn3O4,,,,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1007/s11581-017-2300-x,0 to 0.6,0,0.6,0.6,0.6,530,,,,PANI-GR-mn3O4,,,,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1007/s11581-017-2300-x,0 to 0.6,0,0.6,0.6,1,460,,,,PANI-GR-mn3O4,,,,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1007/s10854-019-01000-0,0 to 0.8,0,0.8,0.8,0.5,403,422,,,PUGF-2,,,,11.02,77.97,11.01,H2SO4,7,1,two-electrode system
+DOI: 10.1007/s10854-019-01000-0,0 to 0.8,0,0.8,0.8,8,357,422,,,PUGF-2,,,,11.02,77.97,11.01,H2SO4,7,1,two-electrode system
+DOI: 10.1007/s11581-016-1812-0,0 to 0.5,0,0.5,0.5,3,382.94,,,,"CeO2 nanoparticle-decorated GO
+(CeO2/GO (1:4))",,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11581-016-1812-0,0 to 0.5,0,0.5,0.5,4,295.69,,,,"CeO2 nanoparticle-decorated GO
+(CeO2/GO (1:4))",,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11581-016-1812-0,0 to 0.5,0,0.5,0.5,5,244.12,,,,"CeO2 nanoparticle-decorated GO
+(CeO2/GO (1:4))",,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11581-016-1812-0,0 to 0.5,0,0.5,0.5,10,137.06,,,,"CeO2 nanoparticle-decorated GO
+(CeO2/GO (1:4))",,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11581-016-1812-0,0 to 0.5,0,0.5,0.5,15,85.68,,,,"CeO2 nanoparticle-decorated GO
+(CeO2/GO (1:4))",,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s10854-016-6314-3,-0.2 to 0.5,-0.2,0.5,0.7,0.5,17,,,,GO-GFC,,,1.09,,,,NaOH,,1,three-electrode system
+DOI: 10.1007/s10854-016-6314-3,-0.2 to 0.5,-0.2,0.5,0.7,0.5,27,,,,GONa-GFC,,,1.07,,,,NaOH,,1,three-electrode system
+DOI: 10.1007/s10854-017-7927-x,-0.2 to 0.8,-0.2,0.8,1,5,960,,,,PPy/C#moO3 nanoparticle/ GNR nanocomposite,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s11664-019-07048-2,0.0 to 0.8,0,0.8,0.8,0.5,563,,,,dPANI-RGO,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10854-020-03373-z,-0.6 to 0.8,-0.6,0.8,1.2,1,1544,,,,mnO2@Polyaniline/Carbon nanotubes/Boron-doped graphene (mnO2@ PCBG),,,0.79,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10854-020-03373-z,-0.6 to 0.8,-0.6,0.8,1.2,2,1274,,,,mnO2@Polyaniline/Carbon nanotubes/Boron-doped graphene (mnO2@ PCBG),,,0.79,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10854-020-03373-z,-0.6 to 0.8,-0.6,0.8,1.2,3,1102,,,,mnO2@Polyaniline/Carbon nanotubes/Boron-doped graphene (mnO2@ PCBG),,,0.79,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10854-020-03373-z,-0.6 to 0.8,-0.6,0.8,1.2,4,980,,,,mnO2@Polyaniline/Carbon nanotubes/Boron-doped graphene (mnO2@ PCBG),,,0.79,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10854-020-03373-z,-0.6 to 0.8,-0.6,0.8,1.2,5,964,,,,mnO2@Polyaniline/Carbon nanotubes/Boron-doped graphene (mnO2@ PCBG),,,0.79,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s42823-019-00045-9,-0.8 to 0.2,-0.8,0.2,0.4,1,972,,,,Fe3O4 (0.4 m)/rGO,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s42823-019-00045-9,-0.8 to 0.2,-0.8,0.2,0.4,2,578,,,,Fe3O4 (0.4 m)/rGO,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s42823-019-00045-9,-0.8 to 0.2,-0.8,0.2,0.4,3,360,,,,Fe3O4 (0.4 m)/rGO,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s42823-019-00045-9,-0.8 to 0.2,-0.8,0.2,0.4,5,265,,,,Fe3O4 (0.4 m)/rGO,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s10854-020-04108-w,-0.2 to 0.7,-0.2,0.7,0.9,,,,,,ZnO@rGO,,,1.16,,,,KOH,6,0.1,three-electrode system
+DOI: 10.1007/s11581-018-2677-1,0 to 0.5,0,0.5,0.5,1,626.84,,,,Ni(OH)2/rGO,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11581-018-2677-1,0 to 0.5,0,0.5,0.5,2,544.32,,,,Ni(OH)2/rGO,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11581-018-2677-1,0 to 0.5,0,0.5,0.5,3,444.17,,,,Ni(OH)2/rGO,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11581-018-2677-1,0 to 0.5,0,0.5,0.5,4,371.67,,,,Ni(OH)2/rGO,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11581-018-2677-1,0 to 0.5,0,0.5,0.5,5,316.8,,,,Ni(OH)2/rGO,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s10854-021-07046-3,-1.0 to 0,-1,0,1,1,254,,0.18,0.48,rGO-3,,,1.098,8.07,85,6.93,KOH,6,6,three-electrode system
+DOI: 10.1007/s10854-021-07046-3,-1.0 to 0,-1,0,1,2,243,,0.18,0.48,rGO-3,,,1.098,8.07,85,6.93,KOH,6,6,three-electrode system
+DOI: 10.1007/s10854-021-07046-3,-1.0 to 0,-1,0,1,5,232,,0.18,0.48,rGO-3,,,1.098,8.07,85,6.93,KOH,6,6,three-electrode system
+DOI: 10.1007/s10854-021-07046-3,-1.0 to 0,-1,0,1,10,228,,0.18,0.48,rGO-3,,,1.098,8.07,85,6.93,KOH,6,6,three-electrode system
+DOI: 10.1007/s10854-021-07046-3,-1.0 to 0,-1,0,1,20,216,,0.18,0.48,rGO-3,,,1.098,8.07,85,6.93,KOH,6,6,three-electrode system
+DOI: 10.1007/s10854-021-07046-3,-1.0 to 0,-1,0,1,50,216,,0.18,0.48,rGO-3,,,1.098,8.07,85,6.93,KOH,6,6,three-electrode system
+DOI: 10.1007/s10854-021-07046-3,-1.0 to 0,-1,0,1,1,244,,0.74,0.47,rGO-1,,,1.077,7.05,86.21,6.73,KOH,6,6,three-electrode system
+DOI: 10.1007/s10854-021-07046-3,-1.0 to 0,-1,0,1,1,240,,1.37,0.42,rGO-2,,,1.1,7.84,85.17,6.99,KOH,6,6,three-electrode system
+DOI: 10.1007/s10854-021-07046-3,-1.0 to 0,-1,0,1,1,231,,0.24,0.42,rGO-4,,,1.12,6.99,85.5,7.96,KOH,6,6,three-electrode system
+DOI: 10.1007/s10008-020-04713-z,-1.1 to -0.2,-1.1,-0.2,0.9,0.07,1132.9,,,,rGO-CuS5,22,,,0,30.34,23.67,LiClO4,,1,three-electrode system
+DOI: 10.1007/s11051-014-2432-0,-0.3 to 0.8,-0.3,0.8,1.1,,,,,,graphene/polyaniline hybrid hollow microsphere,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10854-022-07890-x,0 to 1.0,0,1,1,1,683,8.896,0.60,0.50,(ZIAmPH @ GQDx=50 mg)sonic (ZIAmPHGQD2),3.45,,1.05,,,,H2SO4,7,2,three-electrode system
+DOI: 10.1007/s10854-022-07890-x,0 to 1.0,0,1,1,2,518,8.896,0.60,0.50,(ZIAmPH @ GQDx=50 mg)sonic (ZIAmPHGQD2),3.45,,1.05,,,,H2SO4,7,2,three-electrode system
+DOI: 10.1007/s10854-022-07890-x,0 to 1.0,0,1,1,3,466,8.896,0.60,0.50,(ZIAmPH @ GQDx=50 mg)sonic (ZIAmPHGQD2),3.45,,1.05,,,,H2SO4,7,2,three-electrode system
+DOI: 10.1007/s10854-022-07890-x,0 to 1.0,0,1,1,5,358,8.896,0.60,0.50,(ZIAmPH @ GQDx=50 mg)sonic (ZIAmPHGQD2),3.45,,1.05,,,,H2SO4,7,2,three-electrode system
+DOI: 10.1007/s10854-022-07890-x,0 to 1.0,0,1,1,10,239,8.896,0.60,0.50,(ZIAmPH @ GQDx=50 mg)sonic (ZIAmPHGQD2),3.45,,1.05,,,,H2SO4,7,2,three-electrode system
+DOI: 10.1007/s10854-022-07890-x,0 to 1.0,0,1,1,20,147,8.896,0.60,0.50,(ZIAmPH @ GQDx=50 mg)sonic (ZIAmPHGQD2),3.45,,1.05,,,,H2SO4,7,2,three-electrode system
+DOI: 10.1007/s11581-016-1803-1,-0.2 to 0.8,-0.2,0.8,1,1,575,,,,NG/H-PPy,,,,7.14,77.16,15.71,HCl,,1,three-electrode system
+DOI: 10.1186/s11671-017-2010-3,0 to 1,0,1,1,1,96.16,,,,CBF/PPy-rGO-2,,,,6.79,71,18.69,solid-state electrolyte,,,two-electrode system
+DOI: 10.1007/s10008-017-3831-9,-0.2 to 0.8,-0.2,0.8,1,10,1140,,,,Fe3+-Zn2+-PANI/GO ,,,,,,,Na2SO4,3,0.5,three-electrode system
+DOI: 10.1007/s10008-017-3732-y,0 to 0.6,0,0.6,0.6,0.35,310,,,,PANI-SA-SGO-TiO2(1:1),,,,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1007/s10008-017-3732-y,0 to 0.6,0,0.6,0.6,0.35,366,,,,PANI-SA-SGO-TiO2(3:1),,,,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1007/s10008-017-3732-y,0 to 0.6,0,0.6,0.6,0.35,422,,,,PANI-SA-SGO-TiO2(5:1),,,,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1007/s10008-017-3732-y,0 to 0.6,0,0.6,0.6,0.35,480,,,,PANI-SA-SGO-TiO2(7:1),,,,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1007/s10008-017-3732-y,0 to 0.6,0,0.6,0.6,0.7,460,,,,PANI-SA-SGO-TiO2(7:1),,,,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1007/s10008-017-3732-y,0 to 0.6,0,0.6,0.6,1.7,422,,,,PANI-SA-SGO-TiO2(7:1),,,,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1007/s10008-017-3732-y,0 to 0.6,0,0.6,0.6,3.5,400,,,,PANI-SA-SGO-TiO2(7:1),,,,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1007/s10008-017-3732-y,0 to 0.6,0,0.6,0.6,7,360,,,,PANI-SA-SGO-TiO2(7:1),,,,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1007/s10008-017-3732-y,0 to 0.6,0,0.6,0.6,0.35,440,,,,PANI-SA-SGO-TiO2(10:1),,,,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1007/s10008-015-3094-2,-0.2 to 0.8,-0.2,0.8,1,5,825,76.13,,,PPy/moO3/GNR,,0.29,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10008-015-3094-2,-0.2 to 0.8,-0.2,0.8,1,7,750,76.13,,,PPy/moO3/GNR,,0.29,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10008-015-3094-2,-0.2 to 0.8,-0.2,0.8,1,9,670,76.13,,,PPy/moO3/GNR,,0.29,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10008-015-3094-2,-0.2 to 0.8,-0.2,0.8,1,12,600,76.13,,,PPy/moO3/GNR,,0.29,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10008-015-3094-2,-0.2 to 0.8,-0.2,0.8,1,15,560,76.13,,,PPy/moO3/GNR,,0.29,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s11581-019-03331-8,0 to 0.4,0,0.4,0.4,0.5,739,113.25,,,CoS2/ GO-0.25,,0.16,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11581-019-03331-8,0 to 0.4,0,0.4,0.4,0.5,842,309.98,,,CoS2/GO-0.5,,0.216,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11581-019-03331-8,0 to 0.4,0,0.4,0.4,10,649,309.98,,,CoS2/GO-0.5,,0.216,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11581-019-03331-8,0 to 0.4,0,0.4,0.4,0.5,665,214.82,,,CoS2/GO-0.75,,0.1678,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11581-017-2409-y,-0.6 to 0.1,-0.6,0.1,0.7,1,335,,,,Fe3O4 NPs/FEG/carbon paper,,,,,,,Na2SO3,5,1,three-electrode system
+DOI: 10.1007/s11581-017-2409-y,-0.6 to 0.1,-0.6,0.1,0.7,1.25,301.79,,,,Fe3O4 NPs/FEG/carbon paper,,,,,,,Na2SO3,5,1,three-electrode system
+DOI: 10.1007/s11581-017-2409-y,-0.6 to 0.1,-0.6,0.1,0.7,2.5,225,,,,Fe3O4 NPs/FEG/carbon paper,,,,,,,Na2SO3,5,1,three-electrode system
+DOI: 10.1007/s11581-017-2409-y,-0.6 to 0.1,-0.6,0.1,0.7,5,142.85,,,,Fe3O4 NPs/FEG/carbon paper,,,,,,,Na2SO3,5,1,three-electrode system
+DOI: 10.1007/s11581-017-2409-y,-0.6 to 0.1,-0.6,0.1,0.7,6.25,125,,,,Fe3O4 NPs/FEG/carbon paper,,,,,,,Na2SO3,5,1,three-electrode system
+DOI: 10.1007/s11581-017-2409-y,-0.6 to 0.1,-0.6,0.1,0.7,1,470,,,,Fe3O4 NPs/FFEG/carbon paper,,,,,,,Na2SO3,5,1,three-electrode system
+DOI: 10.1007/s11581-017-2409-y,-0.6 to 0.1,-0.6,0.1,0.7,1.25,394.64,,,,Fe3O4 NPs/FFEG/carbon paper,,,,,,,Na2SO3,5,1,three-electrode system
+DOI: 10.1007/s11581-017-2409-y,-0.6 to 0.1,-0.6,0.1,0.7,2.5,299.64,,,,Fe3O4 NPs/FFEG/carbon paper,,,,,,,Na2SO3,5,1,three-electrode system
+DOI: 10.1007/s11581-017-2409-y,-0.6 to 0.1,-0.6,0.1,0.7,5,264.29,,,,Fe3O4 NPs/FFEG/carbon paper,,,,,,,Na2SO3,5,1,three-electrode system
+DOI: 10.1007/s11581-017-2409-y,-0.6 to 0.1,-0.6,0.1,0.7,6.25,246.43,,,,Fe3O4 NPs/FFEG/carbon paper,,,,,,,Na2SO3,5,1,three-electrode system
+DOI: 10.1007/s42823-019-00108-x,0 to 0.8,0,0.8,0.8,0.25,266.8,74,,,rGO10/PPy,,,,,,,Na2SO4,3,1,two-electrode system
+DOI: 10.1007/s42823-019-00108-x,0 to 0.8,0,0.8,0.8,0.5,260.5,74,,,rGO10/PPy,,,,,,,Na2SO4,3,1,two-electrode system
+DOI: 10.1007/s42823-019-00108-x,0 to 0.8,0,0.8,0.8,1,249,74,,,rGO10/PPy,,,,,,,Na2SO4,3,1,two-electrode system
+DOI: 10.1007/s42823-019-00108-x,0 to 0.8,0,0.8,0.8,1.5,240.9,74,,,rGO10/PPy,,,,,,,Na2SO4,3,1,two-electrode system
+DOI: 10.1007/s42823-019-00108-x,0 to 0.8,0,0.8,0.8,2,232.1,74,,,rGO10/PPy,,,,,,,Na2SO4,3,1,two-electrode system
+DOI: 10.1007/s11581-021-04076-z,-0.2 to 0.8,-0.2,0.8,1,1,360,123.5,,,RGO/PEDOT1:1,,,1.15,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s11581-021-04076-z,-0.2 to 0.8,-0.2,0.8,1,0.5,400,147.6,,,RGO/PEDOT1:2,,0.046,1.17,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s11581-021-04076-z,-0.2 to 0.8,-0.2,0.8,1,1,347,147.6,,,RGO/PEDOT1:2,,0.046,1.17,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s11581-021-04076-z,-0.2 to 0.8,-0.2,0.8,1,20,234,147.6,,,RGO/PEDOT1:2,,0.046,1.17,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s11581-021-04076-z,-0.2 to 0.8,-0.2,0.8,1,1,370,140,,,RGO/PEDOT1:3,,,1.16,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s11665-020-05349-w,0 to 0.6,0,0.6,0.6,0.1,139,,,,PV14/GO,,,,,,,H2SO4,7,0.25,two-electrode system
+DOI: 10.1007/s10008-015-2978-5,0 to 0.6,0,0.6,0.6,0.2,335,,,,rGOSP20,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10008-015-2978-5,0 to 0.6,0,0.6,0.6,0.4,318,,,,rGOSP20,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10008-015-2978-5,0 to 0.6,0,0.6,0.6,0.8,305,,,,rGOSP20,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10008-015-2978-5,0 to 0.6,0,0.6,0.6,2,256,,,,rGOSP20,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10008-015-2978-5,0 to 0.6,0,0.6,0.6,4,205,,,,rGOSP20,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s11581-021-04144-4,-0.2 to 1,-0.2,1,0.8,1,272,182,,,CRG,2.2,0.1,1,,,,H2SO4,7,0.5,three-electrode system
+DOI: 10.1007/s11581-021-04144-4,-0.2 to 1,-0.2,1,0.8,1,464,219,,,HRG,3.7,0.2,1.22,,,,H2SO4,7,0.5,three-electrode system
+DOI: 10.1007/s11581-021-04144-4,0 to 1,0,1,1,1,72,182,,,CRG,2.2,0.1,1,,,,KOH,6,6,two-electrode system
+DOI: 10.1007/s11581-021-04144-4,0 to 1,0,1,1,0.5,78,182,,,CRG,2.2,0.1,1,,,,KOH,6,6,two-electrode system
+DOI: 10.1007/s11581-021-04144-4,0 to 1,0,1,1,2,64,182,,,CRG,2.2,0.1,1,,,,KOH,6,6,two-electrode system
+DOI: 10.1007/s11581-021-04144-4,0 to 1,0,1,1,4,62,182,,,CRG,2.2,0.1,1,,,,KOH,6,6,two-electrode system
+DOI: 10.1007/s11581-021-04144-4,0 to 1,0,1,1,5,60,182,,,CRG,2.2,0.1,1,,,,KOH,6,6,two-electrode system
+DOI: 10.1007/s11581-021-04144-4,0 to 1,0,1,1,7,56,182,,,CRG,2.2,0.1,1,,,,KOH,6,6,two-electrode system
+DOI: 10.1007/s11581-021-04144-4,0 to 1,0,1,1,10,40,182,,,CRG,2.2,0.1,1,,,,KOH,6,6,two-electrode system
+DOI: 10.1007/s11581-021-04144-4,0 to 1,0,1,1,1,124,219,,,HRG,3.7,0.2,1.22,,,,KOH,6,6,two-electrode system
+DOI: 10.1007/s11581-021-04144-4,0 to 1,0,1,1,0.5,134,219,,,HRG,3.7,0.2,1.22,,,,KOH,6,6,two-electrode system
+DOI: 10.1007/s11581-021-04144-4,0 to 1,0,1,1,2,120,219,,,HRG,3.7,0.2,1.22,,,,KOH,6,6,two-electrode system
+DOI: 10.1007/s11581-021-04144-4,0 to 1,0,1,1,4,112,219,,,HRG,3.7,0.2,1.22,,,,KOH,6,6,two-electrode system
+DOI: 10.1007/s11581-021-04144-4,0 to 1,0,1,1,5,100,219,,,HRG,3.7,0.2,1.22,,,,KOH,6,6,two-electrode system
+DOI: 10.1007/s11581-021-04144-4,0 to 1,0,1,1,7,84,219,,,HRG,3.7,0.2,1.22,,,,KOH,6,6,two-electrode system
+DOI: 10.1007/s11581-021-04144-4,0 to 1,0,1,1,10,80,219,,,HRG,3.7,0.2,1.22,,,,KOH,6,6,two-electrode system
+DOI: 10.1007/s10854-016-6267-6,-0.9 to -0.1,-0.9,-0.1,0.8,1,368.3,,,,CuS/RGO-4,,,1.03,,,,KOH,6,2,three-electrode system
+DOI: 10.1007/s10854-018-8686-z,0 to 0.6,0,0.6,0.6,1,1839.4,367.8,,,ZnO/NiO/3DNG,,,,,,,KOH,6,6,two-electrode system
+DOI: 10.1007/s10854-018-8686-z,0 to 0.6,0,0.6,0.6,30,1593,367.8,,,ZnO/NiO/3DNG,,,,,,,KOH,6,6,two-electrode system
+DOI: 10.1007/s11664-019-07188-5,0 to 1.6,0,1.6,1.6,0.5,120,1010,0.12,,P0-CCG,2.45,0.53,0.834,,,,KOH,6,6,two-electrode system
+DOI: 10.1007/s11664-019-07188-5,0 to 1.6,0,1.6,1.6,0.5,192,1007,0.10,,P0.1-CCG,2.39,0.6,0.84,,,,KOH,6,6,two-electrode system
+DOI: 10.1007/s11664-019-07188-5,0 to 1.6,0,1.6,1.6,0.5,277,1010,0.08,,P0.4-CCG,3.06,0.57,0.841,,,,KOH,6,6,two-electrode system
+DOI: 10.1007/s11664-019-07188-5,0 to 1.6,0,1.6,1.6,0.5,252,1010,0.14,,P0.8-CCG,2.38,0.56,0.838,,,,KOH,6,6,two-electrode system
+DOI: 10.1007/s10854-020-04485-2,-1.0 to 0,-1,0,1,0.5,892,159.97,,0.35,Fe3O4@porous graphene/Ni foam,8.7,0.259,,0,30.75,52.48,Na2SO3,5,2,three-electrode system
+DOI: 10.1007/s10854-020-04485-2,-1.0 to 0,-1,0,1,1,855,159.97,,0.35,Fe3O4@porous graphene/Ni foam,8.7,0.259,,0,30.75,52.48,Na2SO3,5,2,three-electrode system
+DOI: 10.1007/s10854-020-04485-2,-1.0 to 0,-1,0,1,2,813,159.97,,0.35,Fe3O4@porous graphene/Ni foam,8.7,0.259,,0,30.75,52.48,Na2SO3,5,2,three-electrode system
+DOI: 10.1007/s10854-020-04485-2,-1.0 to 0,-1,0,1,3,786,159.97,,0.35,Fe3O4@porous graphene/Ni foam,8.7,0.259,,0,30.75,52.48,Na2SO3,5,2,three-electrode system
+DOI: 10.1007/s10854-020-04485-2,-1.0 to 0,-1,0,1,5,743,159.97,,0.35,Fe3O4@porous graphene/Ni foam,8.7,0.259,,0,30.75,52.48,Na2SO3,5,2,three-electrode system
+DOI: 10.1007/s10854-020-04485-2,-1.0 to 0,-1,0,1,7,692,159.97,,0.35,Fe3O4@porous graphene/Ni foam,8.7,0.259,,0,30.75,52.48,Na2SO3,5,2,three-electrode system
+DOI: 10.1007/s10854-020-04485-2,-1.0 to 0,-1,0,1,10,653,159.97,,0.35,Fe3O4@porous graphene/Ni foam,8.7,0.259,,0,30.75,52.48,Na2SO3,5,2,three-electrode system
+DOI: 10.1007/s10853-017-0823-1,0 to 0.8,0,0.8,0.8,1,810,,,,GAp/PANI-9h,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10853-017-0823-1,0 to 0.8,0,0.8,0.8,1,335,,,,GA,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10853-017-0823-1,0 to 0.8,0,0.8,0.8,1,466,,,,GA/PANI-9h,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s11581-014-1231-z,-0.2 to 1,-0.2,1,0.8,1,243.8,,,,FGN,,,1.35,9.83,76.96,13.21,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s11581-014-1231-z,-0.2 to 1,-0.2,1,0.8,2,230.3,,,,FGN,,,1.35,9.83,76.96,13.21,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s11581-014-1231-z,-0.2 to 1,-0.2,1,0.8,3,185.3,,,,FGN,,,1.35,9.83,76.96,13.21,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s11581-014-1231-z,-0.2 to 1,-0.2,1,0.8,5,159.4,,,,functionalized nitrogen-doped graphene (FGN),,,1.35,9.83,76.96,13.21,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s40843-019-9436-1,0 to 0.8,0,0.8,0.8,1,203,,,, GF-SC,,,,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1007/s40843-019-9436-1,0 to 0.8,0,0.8,0.8,1,225,,,,NGF-SC,,,,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1007/s40843-019-9436-1,0 to 0.8,0,0.8,0.8,10,237,,,,PNGF10.34-SC,,,,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1007/s12034-021-02583-3,-0.2 to 1,-0.2,1,0.8,1,433.05,,6.98,,Ag@rGO,,,1.49,0,77.83,17.05,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s12034-021-02583-3,-0.2 to 1,-0.2,1,0.8,2,339.88,,6.98,,Ag@rGO,,,1.49,0,77.83,17.05,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s12034-021-02583-3,-0.2 to 1,-0.2,1,0.8,3,306.87,,6.98,,Ag@rGO,,,1.49,0,77.83,17.05,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s12034-021-02583-3,-0.2 to 1,-0.2,1,0.8,4,277,,6.98,,Ag@rGO,,,1.49,0,77.83,17.05,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s12034-021-02583-3,-0.2 to 1,-0.2,1,0.8,5,252.9,,6.98,,Ag@rGO,,,1.49,0,77.83,17.05,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10854-017-6391-y,0 to 1,0,1,1,2,,,,,moO3/graphene,,,,,,,Na2SO3,5,1,two-electrode system
+DOI: 10.1007/s10854-015-4085-x,0 to 0.6,0,0.6,0.6,10,1606,,,,Ni(OH)2 nanoflakes/3D graphene,,,,,,,NaOH,,1,three-electrode system
+DOI: 10.1007/s10854-015-4085-x,0 to 0.6,0,0.6,0.6,20,1400,,,,Ni(OH)2 nanoflakes/3D graphene,,,,,,,NaOH,,1,three-electrode system
+DOI: 10.1007/s10854-015-4085-x,0 to 0.6,0,0.6,0.6,30,1300,,,,Ni(OH)2 nanoflakes/3D graphene,,,,,,,NaOH,,1,three-electrode system
+DOI: 10.1007/s10854-015-4085-x,0 to 0.6,0,0.6,0.6,40,1100,,,,Ni(OH)2 nanoflakes/3D graphene,,,,,,,NaOH,,1,three-electrode system
+DOI: 10.1007/s10854-015-4085-x,0 to 0.6,0,0.6,0.6,60,1000,,,,Ni(OH)2 nanoflakes/3D graphene,,,,,,,NaOH,,1,three-electrode system
+DOI: 10.1007/s10854-015-4085-x,0 to 0.6,0,0.6,0.6,80,947,,,,Ni(OH)2 nanoflakes/3D graphene,,,,,,,NaOH,,1,three-electrode system
+DOI: 10.1007/s10853-017-1000-2,0 to 0.8,0,0.8,0.8,0.1,340,113.8,,,GCS@PANI-8@RGO,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10853-017-1000-2,0 to 0.8,0,0.8,0.8,0.2,325,113.8,,,GCS@PANI-8@RGO,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10853-017-1000-2,0 to 0.8,0,0.8,0.8,0.5,300,113.8,,,GCS@PANI-8@RGO,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10853-017-1000-2,0 to 0.8,0,0.8,0.8,1,270,113.8,,,GCS@PANI-8@RGO,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10853-017-1000-2,0 to 0.8,0,0.8,0.8,2,255,113.8,,,GCS@PANI-8@RGO,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10853-017-1000-2,0 to 0.8,0,0.8,0.8,5,240,113.8,,,GCS@PANI-8@RGO,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10008-015-2785-z,-0.2 to 0.8,-0.2,0.8,1,1,108.8,,,,PB/rGO (1:4),,,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10008-015-2785-z,-0.2 to 0.8,-0.2,0.8,1,1,195.6,57.72,,,PB/rGO (1:2),,,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10008-015-2785-z,-0.2 to 0.8,-0.2,0.8,1,1,163.9,,,,PB/rGO (1:1),,,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10008-015-2785-z,-0.2 to 0.8,-0.2,0.8,1,1,134.6,,,,PB/rGO (2:1),,,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10854-017-7292-9,0 to 1.5,0,1.5,1.5,0.2,810,,,,PANI-GO,,,,,,,lithium perchlorate (LiClO4) dissolved in acetonitrile,,1,three-electrode system
+DOI: 10.1007/s10854-017-7292-9,0 to 1.5,0,1.5,1.5,0.5,300,,,,PANI-GO,,,,,,,lithium perchlorate (LiClO4) dissolved in acetonitrile,,1,three-electrode system
+DOI: 10.1007/s10854-017-7292-9,0 to 1.5,0,1.5,1.5,1,280,,,,PANI-GO,,,,,,,lithium perchlorate (LiClO4) dissolved in acetonitrile,,1,three-electrode system
+DOI: 10.1007/s10854-017-7292-9,0 to 1.5,0,1.5,1.5,2,200,,,,PANI-GO,,,,,,,lithium perchlorate (LiClO4) dissolved in acetonitrile,,1,three-electrode system
+DOI: 10.1007/s11665-020-05176-z,-0.05 to 0.4,-0.05,0.4,0.45,0.1,600,,,,Co3O4/B-rGO,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1007/s11665-020-05176-z,-0.05 to 0.4,-0.05,0.4,0.45,0.1,434,,,,Co3O4/B-rGO,,,,,,,NaOH,,2,three-electrode system
+DOI: 10.1007/s11665-020-05176-z,-0.05 to 0.4,-0.05,0.4,0.45,0.2,592,,,,Co3O4/B-rGO,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1007/s11665-020-05176-z,-0.05 to 0.4,-0.05,0.4,0.45,0.2,430,,,,Co3O4/B-rGO,,,,,,,NaOH,,2,three-electrode system
+DOI: 10.1007/s11665-020-05176-z,-0.05 to 0.4,-0.05,0.4,0.45,0.5,588,,,,Co3O4/B-rGO,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1007/s11665-020-05176-z,-0.05 to 0.4,-0.05,0.4,0.45,0.5,418,,,,Co3O4/B-rGO,,,,,,,NaOH,,2,three-electrode system
+DOI: 10.1007/s11665-020-05176-z,-0.05 to 0.4,-0.05,0.4,0.45,1,554,,,,Co3O4/B-rGO,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1007/s11665-020-05176-z,-0.05 to 0.4,-0.05,0.4,0.45,1,378,,,,Co3O4/B-rGO,,,,,,,NaOH,,2,three-electrode system
+DOI: 10.1007/s11665-020-05176-z,-0.05 to 0.4,-0.05,0.4,0.45,5,511,,,,Co3O4/B-rGO,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1007/s11665-020-05176-z,-0.05 to 0.4,-0.05,0.4,0.45,5,341,,,,Co3O4/B-rGO,,,,,,,NaOH,,2,three-electrode system
+DOI: 10.1007/s11665-020-05176-z,-0.05 to 0.4,-0.05,0.4,0.45,7,491,,,,Co3O4/B-rGO,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1007/s11665-020-05176-z,-0.05 to 0.4,-0.05,0.4,0.45,7,332,,,,Co3O4/B-rGO,,,,,,,NaOH,,2,three-electrode system
+DOI: 10.1007/s11665-020-05176-z,-0.05 to 0.4,-0.05,0.4,0.45,8,480,,,,Co3O4/B-rGO,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1007/s11665-020-05176-z,-0.05 to 0.4,-0.05,0.4,0.45,8,332,,,,Co3O4/B-rGO,,,,,,,NaOH,,2,three-electrode system
+DOI: 10.1007/s11665-020-05176-z,-0.05 to 0.4,-0.05,0.4,0.45,10,454,,,,Co3O4/B-rGO,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1007/s11665-020-05176-z,-0.05 to 0.4,-0.05,0.4,0.45,10,313,,,,Co3O4/B-rGO,,,,,,,NaOH,,2,three-electrode system
+DOI: 10.1007/s11664-020-08049-2,0 to 0.4,0,0.4,0.4,0.5,916.6,,,,Co3O4/rGO,,,1.04,,,,KOH,6,1,three-electrode system
+DOI: 10.1007/s10008-013-2085-4,0 to 0.8,0,0.8,0.8,0.1,308.3,,,,PoPD/GR,,,,,,,H2SO4,7,2,three-electrode system
+DOI: 10.1007/s10008-013-2085-4,0 to 0.8,0,0.8,0.8,1,216.7,,,,PoPD/GR,,,,,,,H2SO4,7,2,three-electrode system
+DOI: 10.1007/s10008-013-2085-4,0 to 0.8,0,0.8,0.8,2.5,188.8,,,,PoPD/GR,,,,,,,H2SO4,7,2,three-electrode system
+DOI: 10.1007/s10008-013-2085-4,0 to 0.8,0,0.8,0.8,5,165.8,,,,PoPD/GR,,,,,,,H2SO4,7,2,three-electrode system
+DOI: 10.1186/s11671-017-2094-9,0.2 to 0.6,0.2,0.6,0.8,1,178.9,67.6,,,Ni3Si2O5(OH)4/RGO,,,1.08,,,,KOH,6,2,three-electrode system
+DOI: 10.1186/s11671-017-2094-9,0.2 to 0.6,0.2,0.6,0.8,2,166.5,67.6,,,Ni3Si2O5(OH)4/RGO,,,1.08,,,,KOH,6,2,three-electrode system
+DOI: 10.1186/s11671-017-2094-9,0.2 to 0.6,0.2,0.6,0.8,3,150.8,67.6,,,Ni3Si2O5(OH)4/RGO,,,1.08,,,,KOH,6,2,three-electrode system
+DOI: 10.1186/s11671-017-2094-9,0.2 to 0.6,0.2,0.6,0.8,4,138.9,67.6,,,Ni3Si2O5(OH)4/RGO,,,1.08,,,,KOH,6,2,three-electrode system
+DOI: 10.1186/s11671-017-2094-9,0.2 to 0.6,0.2,0.6,0.8,5,132.5,67.6,,,Ni3Si2O5(OH)4/RGO,,,1.08,,,,KOH,6,2,three-electrode system
+DOI: 10.1186/s11671-017-2094-9,0.2 to 0.6,0.2,0.6,0.8,6,126.8,67.6,,,Ni3Si2O5(OH)4/RGO,,,1.08,,,,KOH,6,2,three-electrode system
+DOI: 10.1186/s11671-017-2094-9,0.2 to 0.6,0.2,0.6,0.8,8,120.1,67.6,,,Ni3Si2O5(OH)4/RGO,,,1.08,,,,KOH,6,2,three-electrode system
+DOI: 10.1186/s11671-017-2094-9,0.2 to 0.6,0.2,0.6,0.8,10,144.4,67.6,,,Ni3Si2O5(OH)4/RGO,,,1.08,,,,KOH,6,2,three-electrode system
+DOI: 10.1007/s10008-012-1777-5,0.1 to 0.8,0.1,0.8,0.7,1,55,,,,GNP (1μm thickness),,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1007/s10008-012-1777-5,0.1 to 0.8,0.1,0.8,0.7,200,45,,,,GNP (1μm thickness),,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1007/s10008-012-1777-5,0.1 to 0.8,0.1,0.8,0.7,1,53,,,,GNP (6μm thickness),,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1007/s10008-012-1777-5,0.1 to 0.8,0.1,0.8,0.7,200,43.46,,,,GNP (6μm thickness),,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1007/s10800-013-0575-9,0 to 0.6,0,0.6,0.6,,,,,,LAA-rGO/mWNTs,,,,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1007/s00339-012-6953-z,-0.9 to 0,-0.9,0,0.9,0.1,379,,,,RGO/mWCNT-30 %,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s00339-012-6953-z,-0.9 to 0,-0.9,0,0.9,0.1,306,,,,RGO/mWCNT-10 %,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s00339-012-6953-z,-0.9 to 0,-0.9,0,0.9,0.1,185,,,,RGO/mWCNT-50 %,,,1.01,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s10854-020-04400-9,-0.2 to 0.8,-0.2,0.8,1,0.1,565,,,,G/PANI-NF9,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10904-017-0699-1,-0.8 to 0.9,-0.8,0.9,1.7,0.1,290.9,20.131,,,moO2/graphene,,0.2009,,0,77.58,18.99,Na2SO4,3,1,three-electrode system
+DOI: 10.1007/s10904-017-0699-1,-0.8 to 0.9,-0.8,0.9,1.7,0.2,218.1,20.131,,,moO2/graphene,,0.2009,,0,77.58,18.99,Na2SO4,3,1,three-electrode system
+DOI: 10.1007/s10904-017-0699-1,-0.8 to 0.9,-0.8,0.9,1.7,0.3,145.4,20.131,,,moO2/graphene,,0.2009,,0,77.58,18.99,Na2SO4,3,1,three-electrode system
+DOI: 10.1007/s10904-017-0699-1,-0.8 to 0.9,-0.8,0.9,1.7,0.5,90.9,20.131,,,moO2/graphene,,0.2009,,0,77.58,18.99,Na2SO4,3,1,three-electrode system
+DOI: 10.1007/s10904-017-0699-1,-0.8 to 0.9,-0.8,0.9,1.7,0.7,63.6,20.131,,,moO2/graphene,,0.2009,,0,77.58,18.99,Na2SO4,3,1,three-electrode system
+DOI: 10.1007/s10904-017-0699-1,-0.8 to 0.9,-0.8,0.9,1.7,1,60.6,20.131,,,moO2/graphene,,0.2009,,0,77.58,18.99,Na2SO4,3,1,three-electrode system
+DOI: 10.1007/s11664-020-08165-z,-1.0 to -0.1,-1,-0.1,0.9,16,230.78,,,,GP-CoFe-60,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11664-020-08165-z,-1.0 to -0.1,-1,-0.1,0.9,0.83,304,,,,GP-CoFe-60,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11581-019-02859-z,-0.4 to 0.2,-0.4,0.2,0.8,2,315,91,2.01,,Fe2O3-G,10,0.1,,,,,KOH,6,2,three-electrode system
+DOI: 10.1007/s11581-019-02859-z,-0.4 to 0.2,-0.4,0.2,0.8,10,185,91,2.01,,Fe2O3-G,10,0.1,,,,,KOH,6,2,three-electrode system
+DOI: 10.1007/s11581-015-1456-5,-0.2 to 1,-0.2,1,0.8,1,474.2,481,,,GN/PAP,,,1.17,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s00339-016-0229-y,0.2 to 1.4,0.2,1.4,1.2,9,620,,,,R(fmWCNT-GO)/ TiO2NTs/Ti,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s00339-016-0229-y,0.2 to 1.4,0.2,1.4,1.2,20,600,,,,R(fmWCNT-GO)/ TiO2NTs/Ti,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s42823-019-00077-1,0 to 1,0,1,1,1,120,,,,rGO/AC,,,,,,,Polymer-based solid-state xanthan-gum/Na2SO4,,,two-electrode system
+DOI: 10.1007/s40820-020-00527-w,0 to 0.7,0,0.7,0.7,1,1193.28,,,,Ni3Si2/NiOOH/graphene,,,,,,,KOH,6,3,three-electrode system
+DOI: 10.1007/s42823-021-00300-y,-0.1 to 0.35,-0.1,0.35,0.45,1,222.2,102.6,,,mIL-101/GO,,2.09,,,,,KOH,6,6,three-electrode system
+DOI: 10.1007/s11581-021-03993-3,-0.2 to 0.45,-0.2,0.45,0.65,0.6,166,,,,PTA/PVA/GO,2.225,0.023,,,,,KOH,6,3,three-electrode system
+DOI: 10.1007/s11581-021-03993-3,-0.2 to 0.45,-0.2,0.45,0.65,0.8,112,,,,PTA/PVA/GO,2.225,0.023,,,,,KOH,6,3,three-electrode system
+DOI: 10.1007/s11581-021-03993-3,-0.2 to 0.45,-0.2,0.45,0.65,1,84,,,,PTA/PVA/GO,2.225,0.023,,,,,KOH,6,3,three-electrode system
+DOI: 10.1007/s11581-021-03993-3,-0.2 to 0.45,-0.2,0.45,0.65,1.5,73,,,,PTA/PVA/GO,2.225,0.023,,,,,KOH,6,3,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,0.5,118.5,32.8,2.05,0.34,GP-P0,17.3,0.14,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,0.5,177.2,34.5,1.64,0.33,GP-P1,19.3,0.17,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,0.5,215.8,37.6,1.46,0.31,GP-P3,20.4,0.19,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,0.5,158.2,36.8,1.99,0.36,GP-P5,19.6,0.18,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,0.8,86.9,32.8,2.05,0.34,GP-P0,17.3,0.14,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,0.8,152,34.5,1.64,0.33,GP-P1,19.3,0.17,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,0.8,205.8,37.6,1.46,0.31,GP-P3,20.4,0.19,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,0.8,130.1,36.8,1.99,0.36,GP-P5,19.6,0.18,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,1,71.6,32.8,2.05,0.34,GP-P0,17.3,0.14,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,1,143.5,34.5,1.64,0.33,GP-P1,19.3,0.17,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,1,201.5,37.6,1.46,0.31,GP-P3,20.4,0.19,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,1,113.9,36.8,1.99,0.36,GP-P5,19.6,0.18,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,1.5,55.1,32.8,2.05,0.34,GP-P0,17.3,0.14,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,1.5,124.7,34.5,1.64,0.33,GP-P1,19.3,0.17,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,1.5,183.8,37.6,1.46,0.31,GP-P3,20.4,0.19,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,1.5,97.2,36.8,1.99,0.36,GP-P5,19.6,0.18,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,2,44.1,32.8,2.05,0.34,GP-P0,17.3,0.14,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,2,95.6,34.5,1.64,0.33,GP-P1,19.3,0.17,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,2,168.7,37.6,1.46,0.31,GP-P3,20.4,0.19,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,2,82.6,36.8,1.99,0.36,GP-P5,19.6,0.18,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,5,30.2,32.8,2.05,0.34,GP-P0,17.3,0.14,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,5,74.9,34.5,1.64,0.33,GP-P1,19.3,0.17,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,5,157.2,37.6,1.46,0.31,GP-P3,20.4,0.19,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s10853-015-9506-y,-0.4 to 0.4,-0.4,0.4,1,5,63.1,36.8,1.99,0.36,GP-P5,19.6,0.18,,,,,KNO3,2,1,three-electrode system
+DOI: 10.1007/s12540-014-5024-8,0 to 1 ,0,1,1,0.5,187,,,,RGO/CNT,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s12540-014-5024-8,0 to 1 ,0,1,1,16,136.51,,,,RGO/CNT,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1007/s10008-014-2469-0,-0.2 to 0.6,-0.2,0.6,0.8,0.2,483,,,,PPyGO80:20-SDBS,,,,,,,KCl,4,1,three-electrode system
+DOI: 10.1007/s10008-014-2469-0,-0.2 to 0.6,-0.2,0.6,0.8,0.5,431.15,,,,PPyGO80:20-SDBS,,,,,,,KCl,4,1,three-electrode system
+DOI: 10.1007/s10008-014-2469-0,-0.2 to 0.6,-0.2,0.6,0.8,0.5,282.78,,,,PPyGO80:20,,,,,,,KCl,4,1,three-electrode system
+DOI: 10.1007/s10008-014-2469-0,-0.2 to 0.6,-0.2,0.6,0.8,0.5,200,,,,PPy,,,,,,,KCl,4,1,three-electrode system
+DOI: 10.1007/s10008-014-2469-0,-0.2 to 0.6,-0.2,0.6,0.8,5,315,,,,PPyGO80:20-SDBS,,,,,,,KCl,4,1,three-electrode system
+DOI: 10.1007/s10008-014-2469-0,-0.2 to 0.6,-0.2,0.6,0.8,5,164,,,,PPyGO80:20,,,,,,,KCl,4,1,three-electrode system
+DOI: 10.1007/s10008-014-2469-0,-0.2 to 0.6,-0.2,0.6,0.8,5,25,,,,PPy,,,,,,,KCl,4,1,three-electrode system
+DOI: 10.1007/s10853-016-0344-3,-0.1 to 0.9,-0.1,0.9,1,1,456,326,,,mn3O4@N-doped carbon/graphene (mCG),,1.02,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1007/s10853-016-0344-3,-0.1 to 0.9,-0.1,0.9,1,2,398,326,,,mn3O4@N-doped carbon/graphene (mCG),,1.02,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1007/s10853-016-0344-3,-0.1 to 0.9,-0.1,0.9,1,5,348,326,,,mn3O4@N-doped carbon/graphene (mCG),,1.02,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1007/s10853-016-0344-3,-0.1 to 0.9,-0.1,0.9,1,10,298,326,,,mn3O4@N-doped carbon/graphene (mCG),,1.02,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1007/s10853-016-0344-3,-0.1 to 0.9,-0.1,0.9,1,20,246,326,,,mn3O4@N-doped carbon/graphene (mCG),,1.02,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1007/s10854-021-06619-6,-0.9 to 0.1,-0.9,0.1,1,0.5,222,,,,VNNWs@rGO-2,,,1.18,,,,KOH,6,1,three-electrode system
+DOI: 10.1007/s10854-021-06619-6,-0.9 to 0.1,-0.9,0.1,1,1,188.8,,,,VNNWs@rGO-2,,,1.18,,,,KOH,6,1,three-electrode system
+DOI: 10.1007/s10854-021-06619-6,-0.9 to 0.1,-0.9,0.1,1,3,144.9,,,,VNNWs@rGO-2,,,1.18,,,,KOH,6,1,three-electrode system
+DOI: 10.1007/s10854-021-06619-6,-0.9 to 0.1,-0.9,0.1,1,5,143,,,,VNNWs@rGO-2,,,1.18,,,,KOH,6,1,three-electrode system
+DOI: 10.1007/s10854-021-06619-6,-0.9 to 0.1,-0.9,0.1,1,10,65,,,,VNNWs@rGO-2,,,1.18,,,,KOH,6,1,three-electrode system
+DOI: 10.1021/acsami.5b00657,0 to 0.8,0,0.8,0.8,0.5,820,,,,RuO2/PEDOT-G30,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.5b00657,0 to 0.8,0,0.8,0.8,0.5,727,,,,RuO2-G50,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.5b00657,0 to 0.8,0,0.8,0.8,0.5,526,,,,PEDOT-G30,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.5b00657,0 to 0.8,0,0.8,0.8,0.5,195,,,,PEDOT:PSS,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,0.7,600.19,,,,3D:Co-nb@CG,,,1.01,0,84.6,10.43,KOH,6,,two-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,1.1,542.73,,,,3D:Co-nb@CG,,,1.01,0,84.6,10.43,KOH,6,,two-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,1.5,509.85,,,,3D:Co-nb@CG,,,1.01,0,84.6,10.43,KOH,6,,two-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,1.9,494.84,,,,3D:Co-nb@CG,,,1.01,0,84.6,10.43,KOH,6,,two-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,2.3,489.87,,,,3D:Co-nb@CG,,,1.01,0,84.6,10.43,KOH,6,,two-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,2.7,484.8,,,,3D:Co-nb@CG,,,1.01,0,84.6,10.43,KOH,6,,two-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,3.1,480.78,,,,3D:Co-nb@CG,,,1.01,0,84.6,10.43,KOH,6,,two-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,3.5,479.83,,,,3D:Co-nb@CG,,,1.01,0,84.6,10.43,KOH,6,,two-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,3.9,479,,,,3D:Co-nb@CG,,,1.01,0,84.6,10.43,KOH,6,,two-electrode system
+DOI: 10.1021/acsami.5b04336,0 to 1.2,0,1.2,1.2,4.5,478.93,,,,3D:Co-nb@CG,,,1.01,0,84.6,10.43,KOH,6,,two-electrode system
+DOI: 10.1021/acsami.5b04368,0 to 0.5,0,0.45,0.45,1,385.2,,,,H-TiO2/NG (H-TiO2/NG-B),,,1.11,,,,KOH,6,1,three-electrode system
+DOI: 10.1021/acsami.5b04368,0 to 0.5,0,0.45,0.45,10,320.1,,,,H-TiO2/NG (H-TiO2/NG-B),,,1.11,,,,KOH,6,1,three-electrode system
+DOI: 10.1021/acsami.5b05428,0 to 3.5,0,3.5,3.5,1,128,,,,CNG,,,,,,,KOH,6,6,two-electrode system
+DOI: 10.1021/acsami.5b05428,0 to 3.5,0,3.5,3.5,50,81,,,,CNG,,,,,,,KOH,6,6,two-electrode system
+DOI: 10.1021/acsami.5b08474,0 to 0.7,0,0.7,0.7,1,124,,,,moS2/PANI-60,,,,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1021/acsami.5b08474,-0.1 to 0.6,-0.1,0.6,0.7,0.5,552,,,,moS2/PANI-60,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.5b08474,-0.1 to 0.6,-0.1,0.6,0.7,30,455,,,,moS2/PANI-60,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.5b10545,0 to 0.8,0,0.8,0.8,1,281,385,,,N/S-GP,,,1.28,,,,KOH,6,6,two-electrode system
+DOI: 10.1021/acsami.5b10545,0 to 0.8,0,0.8,0.8,5,235,385,,,N/S-GP,,,1.28,,,,KOH,6,6,two-electrode system
+DOI: 10.1021/acsami.5b10545,0 to 0.8,0,0.8,0.8,10,199,385,,,N/S-GP,,,1.28,,,,KOH,6,6,two-electrode system
+DOI: 10.1021/acsami.6b00225,-1.0 to 0,-1,0,1,1,274,,,,Fe2O3 NDs@NG-0.75,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.6b00225,-1.0 to 0,-1,0,1,2,234,,,,Fe2O3 NDs@NG-0.75,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.6b00225,-1.0 to 0,-1,0,1,5,201,,,,Fe2O3 NDs@NG-0.75,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.6b00225,-1.0 to 0,-1,0,1,8,187,,,,Fe2O3 NDs@NG-0.75,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.6b00225,-1.0 to 0,-1,0,1,10,181,,,,Fe2O3 NDs@NG-0.75,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.6b00225,-1.0 to 0,-1,0,1,20,168,,,,Fe2O3 NDs@NG-0.75,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.6b00225,-1.0 to 0,-1,0,1,50,140,,,,Fe2O3 NDs@NG-0.75,,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.6b01965,-0.2 to 0.8,-0.2,0.8,0.8,,,151.3,,,rGO/PANI (63.5 wt%),,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.6b05779,0 to 0.8,0,0.8,0.8,1,286,,,7.50,blade-rGO,,,,6.2,86,13.8,H2SO4,7,1,two-electrode system
+DOI: 10.1021/acsami.6b05779,0 to 0.8,0,0.8,0.8,1,100,,,17.50,spray-rGO,,,,3.4,77,22.9,H2SO4,7,1,two-electrode system
+DOI: 10.1021/acsami.6b11290,-0.6 to 0.1,-0.6,0.1,0.7,1,416,80,,,rGO-moS2-co,,,0.97,0,54.9,15.6,NaCl,1,1,three-electrode system
+DOI: 10.1021/acsami.6b11290,-0.6 to 0.1,-0.6,0.1,0.7,1,69.3,,,,rGO-moS2-p,,,,0,86,10.9,NaCl,1,1,three-electrode system
+DOI: 10.1021/acsami.6b11290,-0.6 to 0.1,-0.6,0.1,0.7,1,118,50,,,rGO-moO2,,,,0,76.9,18,NaCl,1,1,three-electrode system
+DOI: 10.1021/acsami.6b11290,-0.6 to 0.1,-0.6,0.1,0.7,1,38.5,,,,rGO,,,0.81,0,81.4,18.6,NaCl,1,1,three-electrode system
+DOI: 10.1021/acsami.6b11316,0 to 0.5,0,0.5,0.5,1,782,,,,LG,,,,0,39.12,43.32,KOH,6,6,three-electrode system
+DOI: 10.1021/acsami.6b11316,0 to 0.5,0,0.5,0.5,1,1222,,,,CoAl-LDH/FGN (LFG-12),,,,0,40.14,42.07,KOH,6,6,three-electrode system
+DOI: 10.1021/acsami.6b11316,0 to 0.5,0,0.5,0.5,1,1028,,,,LFG-18,,,,0,41.26,41.03,KOH,6,6,three-electrode system
+DOI: 10.1021/acsami.6b11316,0 to 0.5,0,0.5,0.5,1,894,,,,LFG-24,,,,0,42.31,40.19,KOH,6,6,three-electrode system
+DOI: 10.1021/acsami.6b13050,0 to 0.8,0,0.8,0.8,0.2,253.8,642,,,mesoporous plasma-reduced graphene oxide web (mPrGO web),,,0.77,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.6b13050,0 to 0.8,0,0.8,0.8,0.5,213.3,642,,,mesoporous plasma-reduced graphene oxide web (mPrGO web),,,0.77,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.6b13050,0 to 0.8,0,0.8,0.8,1,197.1,642,,,mesoporous plasma-reduced graphene oxide web (mPrGO web),,,0.77,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.6b13050,0 to 0.8,0,0.8,0.8,3,192,642,,,mesoporous plasma-reduced graphene oxide web (mPrGO web),,,0.77,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.6b13050,0 to 0.8,0,0.8,0.8,5,193.3,642,24.20,2.00,mesoporous plasma-reduced graphene oxide web (mPrGO web),3,,0.77,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.6b13050,0 to 0.8,0,0.8,0.8,0.2,51.7,18,,,hydrazine reduced graphene oxide web (HrGO web),,,1.06,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.6b14704,-1 to 0.4,-1,0.4,1.4,3.6,455,,4,,Fe3O4/rGO,,,0.537,0,93.2,3.08,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.6b14704,-1 to 0.4,-1,0.4,1.4,3.8,376,,4,,Fe3O4/rGO,,,0.537,0,93.2,3.08,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.6b14704,-1 to 0.4,-1,0.4,1.4,4,320,,4,,Fe3O4/rGO,,,0.537,0,93.2,3.08,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.6b14704,-1 to 0.4,-1,0.4,1.4,4.4,297,,4,,Fe3O4/rGO,,,0.537,0,93.2,3.08,KOH,6,2,three-electrode system
+DOI: 10.1021/acsami.7b05965,0 to 0.8,0,0.8,0.8,1,425,,,,N-doped rGO Films (F3),,,,6.7,79.6,13.7,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.7b05965,0 to 0.8,0,0.8,0.8,20,315,,,,N-doped rGO Films (F3),,,,6.7,79.6,13.7,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.7b05965,0 to 1.6,0,1.6,1.6,5,385,,,,N-doped rGO Films (F3),,,,6.7,79.6,13.7,H2SO4,7,1,two-electrode system
+DOI: 10.1021/acsami.7b05965,0 to 0.8,0,0.8,0.8,1,290,,,,N-doped rGO Films (F2),,,,3.2,84,12.8,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.7b05965,0 to 0.8,0,0.8,0.8,20,203,,,,N-doped rGO Films (F2),,,,3.2,84,12.8,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.7b05965,0 to 0.8,0,0.8,0.8,1,225,,,,N-doped rGO Films (F1),,,,2.3,81.3,16.4,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.7b05965,0 to 0.8,0,0.8,0.8,20,134,,,,N-doped rGO Films (F1),,,,2.3,81.3,16.4,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acsami.7b18853,0 to 1,0,1,1,0.25,104.4,,,,RGO/HxPOy,,,,,,28.05,H3PO4,,1,two-electrode system
+DOI: 10.1021/acsami.7b18853,0 to 1,0,1,1,50,65,,,,RGO/HxPOy,,,,,,28.05,H3PO4,,1,two-electrode system
+DOI: 10.1021/acsami.8b00323,-1 to 0,-1,0,1,1,296.7,,,4.00,Graphene quantum dots (GQDs),1.94,,1.01,,,,KOH,6,2,two-electrode system
+DOI: 10.1021/acsami.8b00323,-1 to 0,-1,0,1,2,261.4,,,4.00,Graphene quantum dots (GQDs),1.94,,1.01,,,,KOH,6,2,two-electrode system
+DOI: 10.1021/acsami.8b00323,-1 to 0,-1,0,1,3,240.3,,,4.00,Graphene quantum dots (GQDs),1.94,,1.01,,,,KOH,6,2,two-electrode system
+DOI: 10.1021/acsami.8b00323,-1 to 0,-1,0,1,5,217.2,,,4.00,Graphene quantum dots (GQDs),1.94,,1.01,,,,KOH,6,2,two-electrode system
+DOI: 10.1021/acsami.8b00323,-1 to 0,-1,0,1,10,182.5,,,4.00,Graphene quantum dots (GQDs),1.94,,1.01,,,,KOH,6,2,two-electrode system
+DOI: 10.1021/acsami.8b00323,-1 to 0,-1,0,1,20,160.3,,,4.00,Graphene quantum dots (GQDs),1.94,,1.01,,,,KOH,6,2,two-electrode system
+DOI: 10.1021/acsami.8b02354,0 to 1,0,1,1,1,200.6,,,,mnO2/GH,,,1.37,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1021/acsami.8b02354,0 to 1,0,1,1,1,113,,,,Graphene hydrogels (GHs),,,1.7,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1021/acsami.8b03901,0 to 1,0,1,1,1,152,,,,PPyNF film,,,,,,,Li2SO4,,1,two-electrode system
+DOI: 10.1021/acsami.8b03901,0 to 1,0,1,1,1,156,,,,G-PPyNF2 film,,,,,,,Li2SO4,,1,two-electrode system
+DOI: 10.1021/acsami.8b03901,0 to 1,0,1,1,1,130,,,,G-PPyNF1 film,,,,,,,Li2SO4,,1,two-electrode system
+DOI: 10.1021/acsami.8b03901,0 to 1,0,1,1,0.5,161,,,,G-PPyNF2 film,,,,,,,Li2SO4,,1,two-electrode system
+DOI: 10.1021/acsami.8b03901,0 to 1,0,1,1,8,128,,,,G-PPyNF2 film,,,,,,,Li2SO4,,1,two-electrode system
+DOI: 10.1021/acsami.8b03901,0 to 1,0,1,1,0.5,169,,,,PPyNF film,,,,,,,Li2SO4,,1,two-electrode system
+DOI: 10.1021/acsami.8b03901,0 to 1,0,1,1,8,96,,,,PPyNF film,,,,,,,Li2SO4,,1,two-electrode system
+DOI: 10.1021/acsami.8b03901,0 to 1,0,1,1,0.5,136,,,,G-PPyNF1 film,,,,,,,Li2SO4,,1,two-electrode system
+DOI: 10.1021/acsami.8b03901,0 to 1,0,1,1,8,128,,,,G-PPyNF1 film,,,,,,,Li2SO4,,1,two-electrode system
+DOI: 10.1021/acsami.9b04649,-0.1 to 0.7,-0.1,0.7,0.8,0.5,230.2,,,,[Ag5(C2H2N3)6][H5 ⊂ Simo12O40] @15%GO-based,,,,,,,H2SO4,7,0.5,three-electrode system
+DOI: 10.1021/acssuschemeng.5b01700,0 to 1,0,1,1,0.2,480,,,,mnOx-CDG,,,,,,,Na2SO4,3,1,two-electrode system
+DOI: 10.1021/acssuschemeng.6b01367,-0.2 to 0.4,-0.2,0.4,0.6,3,1256,,,0.58,Ternary ZnCo2O4/reduced graphene oxide/NiO (ZCGNO),,,1.1,0,18.45,44.31,KOH,6,6,three-electrode system
+DOI: 10.1021/acssuschemeng.6b01367,-0.2 to 0.4,-0.2,0.4,0.6,5,1115,,,0.58,Ternary ZnCo2O4/reduced graphene oxide/NiO (ZCGNO),,,1.1,0,18.45,44.31,KOH,6,6,three-electrode system
+DOI: 10.1021/acssuschemeng.6b01367,-0.2 to 0.4,-0.2,0.4,0.6,10,716.6,,,0.58,Ternary ZnCo2O4/reduced graphene oxide/NiO (ZCGNO),,,1.1,0,18.45,44.31,KOH,6,6,three-electrode system
+DOI: 10.1021/acssuschemeng.6b01367,-0.2 to 0.4,-0.2,0.4,0.6,15,685,,,0.58,Ternary ZnCo2O4/reduced graphene oxide/NiO (ZCGNO),,,1.1,0,18.45,44.31,KOH,6,6,three-electrode system
+DOI: 10.1021/acssuschemeng.6b01367,-0.2 to 0.4,-0.2,0.4,0.6,25,666.6,,,0.58,Ternary ZnCo2O4/reduced graphene oxide/NiO (ZCGNO),,,1.1,0,18.45,44.31,KOH,6,6,three-electrode system
+DOI: 10.1021/acssuschemeng.6b01367,-0.2 to 0.4,-0.2,0.4,0.6,3,485,,,0.58,Ternary ZnCo2O4/reduced graphene oxide/NiO (ZCGNO),,,1.1,0,18.45,44.31,KOH,6,1,three-electrode system
+DOI: 10.1021/acssuschemeng.6b01367,-0.2 to 0.4,-0.2,0.4,0.6,5,458,,,0.58,Ternary ZnCo2O4/reduced graphene oxide/NiO (ZCGNO),,,1.1,0,18.45,44.31,KOH,6,1,three-electrode system
+DOI: 10.1021/acssuschemeng.6b01367,-0.2 to 0.4,-0.2,0.4,0.6,10,433,,,0.58,Ternary ZnCo2O4/reduced graphene oxide/NiO (ZCGNO),,,1.1,0,18.45,44.31,KOH,6,1,three-electrode system
+DOI: 10.1021/acssuschemeng.6b01367,-0.2 to 0.4,-0.2,0.4,0.6,15,350,,,0.58,Ternary ZnCo2O4/reduced graphene oxide/NiO (ZCGNO),,,1.1,0,18.45,44.31,KOH,6,1,three-electrode system
+DOI: 10.1021/acssuschemeng.6b01367,-0.2 to 0.4,-0.2,0.4,0.6,25,291.6,,,0.58,Ternary ZnCo2O4/reduced graphene oxide/NiO (ZCGNO),,,1.1,0,18.45,44.31,KOH,6,1,three-electrode system
+DOI: 10.1021/acssuschemeng.7b00747,0 to 2,0,2,2,1,,1519,,,Starch/RGO,2,0.75,,,,,LiCl/PVA gel,,,two-electrode system
+DOI: 10.1021/acssuschemeng.7b01074,0 to 0.8,0,0.8,0.8,1,101.5,479.1543,,,AC,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1021/acssuschemeng.7b01074,0 to 0.8,0,0.8,0.8,5,70.1,479.1543,,,AC,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1021/acssuschemeng.7b03814,-0.1 to 0.7,-0.1,0.7,0.8,0.5,326.6,46,0.50,1.10,PYT-NH2/rGO,7.5,0.17,1.11,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acssuschemeng.7b03814,-0.1 to 0.7,-0.1,0.7,0.8,1.5,272.9,46,0.50,1.10,PYT-NH2/rGO,7.5,0.17,1.11,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acssuschemeng.7b03814,-0.1 to 0.7,-0.1,0.7,0.8,2,262.5,46,0.50,1.10,PYT-NH2/rGO,7.5,0.17,1.11,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acssuschemeng.7b03814,-0.1 to 0.7,-0.1,0.7,0.8,3,252.8,46,0.50,1.10,PYT-NH2/rGO,7.5,0.17,1.11,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acssuschemeng.7b03814,-0.1 to 0.7,-0.1,0.7,0.8,5,242,46,0.50,1.10,PYT-NH2/rGO,7.5,0.17,1.11,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acssuschemeng.7b03814,-0.1 to 0.7,-0.1,0.7,0.8,10,218,46,0.50,1.10,PYT-NH2/rGO,7.5,0.17,1.11,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acssuschemeng.7b03814,-0.1 to 0.7,-0.1,0.7,0.8,0.5,229.2,57,1.60,1.20,PYT-NH2/GO,9.4,0.22,0.91,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acssuschemeng.7b03814,-0.1 to 0.7,-0.1,0.7,0.8,1.5,200,57,1.60,1.20,PYT-NH2/GO,9.4,0.22,0.91,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acssuschemeng.7b03814,-0.1 to 0.7,-0.1,0.7,0.8,2,192.4,57,1.60,1.20,PYT-NH2/GO,9.4,0.22,0.91,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acssuschemeng.7b03814,-0.1 to 0.7,-0.1,0.7,0.8,3,184.4,57,1.60,1.20,PYT-NH2/GO,9.4,0.22,0.91,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acssuschemeng.7b03814,-0.1 to 0.7,-0.1,0.7,0.8,5,174.4,57,1.60,1.20,PYT-NH2/GO,9.4,0.22,0.91,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acssuschemeng.7b03814,-0.1 to 0.7,-0.1,0.7,0.8,10,163.8,57,1.60,1.20,PYT-NH2/GO,9.4,0.22,0.91,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/acssuschemeng.8b05419,-1 to 0,-1,0,1,1,86,,,2.54,jute stick-derived nanoporous carbons (JC-NA),,,1.034,0,78,22,KOH,6,6,three-electrode system
+DOI: 10.1021/acssuschemeng.8b05419,-1 to 0,-1,0,1,1,173,949,,1.78,jute stick-derived nanoporous carbons (JC 800),3.7,0.69,0.998,0,83,17,KOH,6,6,three-electrode system
+DOI: 10.1021/acssuschemeng.8b05419,-1 to 0,-1,0,1,1,217,1706,,0.29,jute stick-derived nanoporous carbons (JC 900),3.8,1.2,0.557,0,87.5,12.5,KOH,6,6,three-electrode system
+DOI: 10.1021/acssuschemeng.8b05419,-1 to 0,-1,0,1,1,226,2393,,0.20,jute stick-derived nanoporous carbons (JC 1000),3.4,1.6,0.18,0,96.5,3.5,KOH,6,6,three-electrode system
+DOI: 10.1021/acssuschemeng.8b05419,-1 to 0,-1,0,1,0.5,282,2393,,0.20,jute stick-derived nanoporous carbons (JC 1000),3.4,1.6,0.18,0,96.5,3.5,KOH,6,6,three-electrode system
+DOI: 10.1021/acssuschemeng.8b05419,-1 to 0,-1,0,1,1,145,,,,jute stick-derived nanoporous carbons (JC 1100),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1021/acssuschemeng.9b02549,0 to 1,0,1,1,1,702,,,,Zn2SnO4/SnO2/CNT,,,,,,,KOH,6,6,two-electrode system
+DOI: 10.1021/acssuschemeng.9b02549,0 to 1,0,1,1,10,260,,,,Zn2SnO4/SnO2/CNT,,,,,,,KOH,6,6,two-electrode system
+DOI: 10.1021/acssuschemeng.9b04209,0 to 2.7,0,2.7,2.7,1,128.1,1816.4,,2.15,Ultrathin graphene-like porous carbon nano-sheets (GPCNS-3),2.49,1.16,,0.72,92.39,6.89,TEABF4/AN,8,1,two-electrode system
+DOI: 10.1021/acssuschemeng.9b04209,0 to 2.7,0,2.7,2.7,2,127.4,1816.4,,2.15,Ultrathin graphene-like porous carbon nano-sheets (GPCNS-3),2.49,1.16,,0.72,92.39,6.89,TEABF4/AN,8,1,two-electrode system
+DOI: 10.1021/acssuschemeng.9b04209,0 to 2.7,0,2.7,2.7,3,126,1816.4,,2.15,Ultrathin graphene-like porous carbon nano-sheets (GPCNS-3),2.49,1.16,,0.72,92.39,6.89,TEABF4/AN,8,1,two-electrode system
+DOI: 10.1021/acssuschemeng.9b04209,0 to 2.7,0,2.7,2.7,4,124.7,1816.4,,2.15,Ultrathin graphene-like porous carbon nano-sheets (GPCNS-3),2.49,1.16,,0.72,92.39,6.89,TEABF4/AN,8,1,two-electrode system
+DOI: 10.1021/acssuschemeng.9b04209,0 to 2.7,0,2.7,2.7,5,123.7,1816.4,,2.15,Ultrathin graphene-like porous carbon nano-sheets (GPCNS-3),2.49,1.16,,0.72,92.39,6.89,TEABF4/AN,8,1,two-electrode system
+DOI: 10.1021/acssuschemeng.9b04209,0 to 2.7,0,2.7,2.7,10,120,1816.4,,2.15,Ultrathin graphene-like porous carbon nano-sheets (GPCNS-3),2.49,1.16,,0.72,92.39,6.89,TEABF4/AN,8,1,two-electrode system
+DOI: 10.1021/acssuschemeng.9b04209,0 to 2.7,0,2.7,2.7,20,111.1,1816.4,,2.15,Ultrathin graphene-like porous carbon nano-sheets (GPCNS-3),2.49,1.16,,0.72,92.39,6.89,TEABF4/AN,8,1,two-electrode system
+DOI: 10.1021/acssuschemeng.9b04209,0 to 2.7,0,2.7,2.7,30,104.4,1816.4,,2.15,Ultrathin graphene-like porous carbon nano-sheets (GPCNS-3),2.49,1.16,,0.72,92.39,6.89,TEABF4/AN,8,1,two-electrode system
+DOI: 10.1021/acssuschemeng.9b04209,0 to 2.7,0,2.7,2.7,40,97.8,1816.4,,2.15,Ultrathin graphene-like porous carbon nano-sheets (GPCNS-3),2.49,1.16,,0.72,92.39,6.89,TEABF4/AN,8,1,two-electrode system
+DOI: 10.1021/am100343a,0 to 1,0,1,1,,,,,,Large sized graphene nanosheets,,,,0.59,95.7,3.71,KOH,6,6,two-electrode system
+DOI: 10.1021/am100343a,0 to 1,0,1,1,,,550,,, Small sized graphene nanosheets ,,,,1.21,92.47,6.32,KOH,6,6,two-electrode system
+DOI: 10.1021/am100343a,0 to 1,0,1,1,30,36,,,,multilayer graphene nanosheet film,,,,,,,KOH,6,6,two-electrode system
+DOI: 10.1021/am100343a,0 to 1,0,1,1,10,80,,,,multilayer graphene nanosheet film,,,,,,,KOH,6,6,two-electrode system
+DOI: 10.1021/am2016848,0 to 0.9,0,0.9,0.9,5,105,,,,mnC/RGO (mnC-G37),,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1021/am2016848,0 to 0.9,0,0.9,0.9,0.2,193,,,,mnC/RGO (mnC-G37),,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1021/am2016848,0 to 0.9,0,0.9,0.9,5,53,,,,CNT-G,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1021/am2016848,0 to 0.9,0,0.9,0.9,0.2,69,,,,CNT-G,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1021/am302000z,-0.2 to 0.8,-0.2,0.8,1,0.3,33,47,,,multiwalled carbon nanotubes (mWCNTs),,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1021/am302000z,-0.2 to 0.8,-0.2,0.8,1,0.3,256,85,,,CGN,,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1021/am400001g,0 to 1,0,1,1,1,245,1088,,,CNCs-700,14.3,2.35,0.91,,,,KOH,6,6,two-electrode system
+DOI: 10.1021/am400001g,0 to 1,0,1,1,1,248,1001,,0.31,CNCs-800,14.5,2.34,0.78,,,,KOH,6,6,two-electrode system
+DOI: 10.1021/am400001g,0 to 1,0,1,1,10,217,1001,,0.31,CNCs-800,14.5,2.34,0.78,,,,KOH,6,6,two-electrode system
+DOI: 10.1021/am400001g,0 to 1,0,1,1,100,189,1001,,0.31,CNCs-800,14.5,2.34,0.78,,,,KOH,6,6,two-electrode system
+DOI: 10.1021/am400001g,-0.2 to 0.8,-0.2,0.8,1,1,262,1001,,0.31,CNCs-800,14.5,2.34,0.78,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/am400001g,0 to 1,0,1,1,1,232,769,,,CNCs-900,14,2.01,0.63,,,,KOH,6,6,two-electrode system
+DOI: 10.1021/am4001634,-0.2 to 0.8,-0.2,0.8,1,0.1,257,891,,0.50,Graphene/PANI,,,,2.34,89.6,7.9,H2SO4,7,1,three-electrode system
+DOI: 10.1021/am4001634,-0.2 to 0.8,-0.2,0.8,1,1,213,891,,0.50,Graphene/PANI,,,,2.34,89.6,7.9,H2SO4,7,1,three-electrode system
+DOI: 10.1021/am4001634,-0.2 to 0.8,-0.2,0.8,1,10,145,891,,0.50,Graphene/PANI,,,,2.34,89.6,7.9,H2SO4,7,1,three-electrode system
+DOI: 10.1021/am4003827,0 to 0.8,0,0.8,0.8,1,614,,,,PANI-HS36@ERGO,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/am4003827,0 to 0.8,0,0.8,0.8,1,394,,,,PANI-HS36,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/am4003827,0 to 0.8,0,0.8,0.8,1,93,,,,ERGO,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/am401458,-1 to 0,-1,0,1,2,366,,,,graphene aerogel-nickel foam (GA@NF),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1021/am401458,-1 to 0,-1,0,1,20,186,,,,graphene aerogel-nickel foam (GA@NF),,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1021/am401458,-1 to 0,-1,0,1,2,207,,,,GCA@NF,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1021/am401458,-1 to 0,-1,0,1,20,142,,,,GCA@NF,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1021/am403663f,-0.1 to 0.9,-0.1,0.9,1,0.5,350,,,,WS2/RGO,,,,,,,Na2SO4,3,1,two-electrode system
+DOI: 10.1021/am404691w,0 to 0.4,0,0.4,0.4,2,425,,,,NiO/UDG/NF,,,,,,,KOH,6,5,three-electrode system
+DOI: 10.1021/am404691w,0 to 0.4,0,0.4,0.4,4,410,,,,NiO/UDG/NF,,,,,,,KOH,6,5,three-electrode system
+DOI: 10.1021/am404691w,0 to 0.4,0,0.4,0.4,6,390,,,,NiO/UDG/NF,,,,,,,KOH,6,5,three-electrode system
+DOI: 10.1021/am404691w,0 to 0.4,0,0.4,0.4,10,300,,,,NiO/UDG/NF,,,,,,,KOH,6,5,three-electrode system
+DOI: 10.1021/am501362g,-1 to 0,-1,0,1,1,401,903,,,GN-CNT,,,1.51,,,,KOH,6,6,three-electrode system
+DOI: 10.1021/am501362g,-1 to 0,-1,0,1,10,271,903,,,GN-CNT,,,1.51,,,,KOH,6,6,three-electrode system
+DOI: 10.1021/am5014375,0 to 0.5,0,0.5,0.5,2,1985,147,,,nickel hydroxide- manganese dioxide-reduced graphene oxide (Ni(OH)2- mnO2-RGO),,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1021/am5014375,0 to 0.5,0,0.5,0.5,3,1736,147,,,nickel hydroxide- manganese dioxide-reduced graphene oxide (Ni(OH)2- mnO2-RGO),,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1021/am5014375,0 to 0.5,0,0.5,0.5,4,1501,147,,,nickel hydroxide- manganese dioxide-reduced graphene oxide (Ni(OH)2- mnO2-RGO),,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1021/am5014375,0 to 0.5,0,0.5,0.5,6,1062,147,,,nickel hydroxide- manganese dioxide-reduced graphene oxide (Ni(OH)2- mnO2-RGO),,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1021/am5014375,0 to 0.5,0,0.5,0.5,8,724,147,,,nickel hydroxide- manganese dioxide-reduced graphene oxide (Ni(OH)2- mnO2-RGO),,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1021/am5021028,-0.2 to 0.8,-0.2,0.8,1,0.5,195.5,,,,CSS/G/PEDOT/mnO2 (active materials mass loading: 3.3 mg),,,,,,,Na2SO4,3,0.5,three-electrode system
+DOI: 10.1021/am5021028,-0.2 to 0.8,-0.2,0.8,1,10,51,,,,CSS/G/PEDOT/mnO2 (active materials mass loading: 3.3 mg),,,,,,,Na2SO4,3,0.5,three-electrode system
+DOI: 10.1021/am5021028,-0.2 to 0.8,-0.2,0.8,1,0.5,143.7,,,,CSS/ G/PEDOT,,,,,,,Na2SO4,3,0.5,three-electrode system
+DOI: 10.1021/am5021028,-0.2 to 0.8,-0.2,0.8,1,10,88,,,,CSS/G/PEDOT electrode (active mass loading: 2.3 mg),,,,,,,Na2SO4,3,0.5,three-electrode system
+DOI: 10.1021/am5024258,-0.9 to 1.3,-0.9,1.3,2.2,,,218,,,3D graphene/mnO2-60,,,,,,,,,,
+DOI: 10.1021/am505533c,0 to 0.8,0,0.8,0.8,1,2136,,,,PANI-coated graphite,,,,,,,H2SO4,7,6,three-electrode system
+DOI: 10.1021/am505533c,0 to 0.8,0,0.8,0.8,20,425,,,,PANI-coated graphite,,,,,,,H2SO4,7,6,three-electrode system
+DOI: 10.1021/am505533c,0 to 0.8,0,0.8,0.8,1,1938,,,,PANI-coated graphite,,,,,,,H2SO4,7,3,three-electrode system
+DOI: 10.1021/am505533c,0 to 0.8,0,0.8,0.8,20,150,,,,PANI-coated graphite,,,,,,,H2SO4,7,3,three-electrode system
+DOI: 10.1021/am505533c,0 to 0.8,0,0.8,0.8,1,1788,,,,PANI-coated graphite,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/am505533c,0 to 0.8,0,0.8,0.8,20,75,,,,PANI-coated graphite,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/sc400055,-0.2 to 0.5,-0.2,0.5,0.7,2,532,,,,CT-Co(OH)2/graphene,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1021/sc400055,-0.2 to 0.5,-0.2,0.5,0.7,6,449,,,,CT-Co(OH)2/graphene,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1021/sc400055,-0.2 to 0.5,-0.2,0.5,0.7,8,395,,,,CT-Co(OH)2/graphene,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1021/sc400055,-0.2 to 0.5,-0.2,0.5,0.7,10,357,,,,CT-Co(OH)2/graphene,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1021/sc5006999,0 to 0.8,0,0.8,0.8,0.5,682.75,,,,G@PANI@G,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/sc5006999,0 to 0.8,0,0.8,0.8,10,319.24,,,,G@PANI@G,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1021/sc5006999,0 to 0.8,0,0.8,0.8,20,217.11,,,,G@PANI@G,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/adfm.201301747,0 to 0.5,0,0.5,0.5,3,2682,,,,nickel-cobalt layered double hydroxide (Ni-Co LDH with 6:4 of Ni:Co ratio) hybrid films,,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1002/adfm.201301747,0 to 0.5,0,0.5,0.5,4,2580,,,,nickel-cobalt layered double hydroxide (Ni-Co LDH with 6:4 of Ni:Co ratio) hybrid films,,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1002/adfm.201301747,0 to 0.5,0,0.5,0.5,6,2435,,,,nickel-cobalt layered double hydroxide (Ni-Co LDH with 6:4 of Ni:Co ratio) hybrid films,,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1002/adfm.201301747,0 to 0.5,0,0.5,0.5,8,2339,,,,nickel-cobalt layered double hydroxide (Ni-Co LDH with 6:4 of Ni:Co ratio) hybrid films,,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1002/adfm.201301747,0 to 0.5,0,0.5,0.5,10,2228,,,,nickel-cobalt layered double hydroxide (Ni-Co LDH with 6:4 of Ni:Co ratio) hybrid films,,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1002/adfm.201301747,0 to 0.5,0,0.5,0.5,15,1977,,,,nickel-cobalt layered double hydroxide (Ni-Co LDH with 6:4 of Ni:Co ratio) hybrid films,,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1002/adfm.201301747,0 to 0.5,0,0.5,0.5,20,1706,,,,nickel-cobalt layered double hydroxide (Ni-Co LDH with 6:4 of Ni:Co ratio) hybrid films,,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1002/adfm.201803075,0 to 0.8,0,0.8,0.8,1,215,450,,,CNF/GN-2,,,1.3,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/adfm.201803075,0 to 0.8,0,0.8,0.8,1,97,350,,,CNF/GN-1,,,1.29,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/adfm.201803075,0 to 0.8,0,0.8,0.8,1,148,450,,,CNF/GN-3,,,1.33,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/admi.201600884,0 to 0.5,0,0.5,0.5,1.25,3344.08,,,,Co3O4/RGO-2 electrode (the mass ratio of CoCl2 to GO is 10:1),,,2.1,1.88,,,KOH,6,6,three-electrode system
+DOI: 10.1002/admi.201600884,0 to 0.5,0,0.5,0.5,2.5,3111.5,,,,Co3O4/RGO-2 electrode (the mass ratio of CoCl2 to GO is 10:1),,,2.1,1.88,,,KOH,6,6,three-electrode system
+DOI: 10.1002/admi.201600884,0 to 0.5,0,0.5,0.5,5,2840.3,,,,Co3O4/RGO-2 electrode (the mass ratio of CoCl2 to GO is 10:1),,,2.1,1.88,,,KOH,6,6,three-electrode system
+DOI: 10.1002/admi.201600884,0 to 0.5,0,0.5,0.5,10,2571.6,,,,Co3O4/RGO-2 electrode (the mass ratio of CoCl2 to GO is 10:1),,,2.1,1.88,,,KOH,6,6,three-electrode system
+DOI: 10.1002/admi.201600884,0 to 0.5,0,0.5,0.5,12.5,2488,,,,Co3O4/RGO-2 electrode (the mass ratio of CoCl2 to GO is 10:1),,,2.1,1.88,,,KOH,6,6,three-electrode system
+DOI: 10.1002/admi.201600884,0 to 0.5,0,0.5,0.5,18.75,2316.75,,,,Co3O4/RGO-2 electrode (the mass ratio of CoCl2 to GO is 10:1),,,2.1,1.88,,,KOH,6,6,three-electrode system
+DOI: 10.1002/slct.201700984,0 to 1,0,1,1,0.05,294,2400,,,AC/rGO,,,,,,,KOH,6,6,two-electrode system
+DOI: 10.1002/slct.201700984,0 to 2.7,0,2.7,2.7,0.05,144,2400,,,AC/rGO,,,,,,,TEABF4/PC,,1,two-electrode system
+DOI: 10.1002/slct.201700984,0 to 2.7,0,2.7,2.7,20,96,2400,,,AC/rGO,,,,,,,TEABF4/PC,,1,two-electrode system
+DOI: 10.1002/slct.201802721,-0.1 to 0.45,-0.1,0.45,0.55,0.25,608.2,577.1,,,CoBTC mOF/GNS,,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1002/slct.201802721,-0.1 to 0.45,-0.1,0.45,0.55,0.3,587.1,577.1,,,CoBTC mOF/GNS,,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1002/slct.201802721,-0.1 to 0.45,-0.1,0.45,0.55,0.35,268.3,577.1,,,CoBTC mOF/GNS,,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1002/slct.201802721,-0.1 to 0.45,-0.1,0.45,0.55,0.4,548.2,577.1,,,CoBTC mOF/GNS,,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1002/slct.201802721,-0.1 to 0.45,-0.1,0.45,0.55,0.45,530.7,577.1,,,CoBTC mOF/GNS,,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1002/slct.201802721,-0.1 to 0.45,-0.1,0.45,0.55,0.5,512.3,577.1,,,CoBTC mOF/GNS,,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1002/slct.201802721,-0.1 to 0.45,-0.1,0.45,0.55,1,477.6,577.1,,,CoBTC mOF/GNS,,,,,,,KOH,6,1,three-electrode system
+DOI: 10.1002/slct.201802721,-0.1 to 1.3,-0.1,1.3,1.4,0.25,183.2,577.1,,,CoBTC mOF/GNS,,,,,,,KOH,6,1,two-electrode system
+DOI: 10.1002/slct.201802721,-0.1 to 1.3,-0.1,1.3,1.4,2,162.3,577.1,,,CoBTC mOF/GNS,,,,,,,KOH,6,1,two-electrode system
+DOI: 10.1002/slct.201802721,-0.1 to 1.3,-0.1,1.3,1.4,4,148.8,577.1,,,CoBTC mOF/GNS,,,,,,,KOH,6,1,two-electrode system
+DOI: 10.1002/slct.201802721,-0.1 to 1.3,-0.1,1.3,1.4,6,132.5,577.1,,,CoBTC mOF/GNS,,,,,,,KOH,6,1,two-electrode system
+DOI: 10.1002/slct.201802721,-0.1 to 1.3,-0.1,1.3,1.4,8,116.3,577.1,,,CoBTC mOF/GNS,,,,,,,KOH,6,1,two-electrode system
+DOI: 10.1002/slct.201802721,-0.1 to 1.3,-0.1,1.3,1.4,10,98.3,577.1,,,CoBTC mOF/GNS,,,,,,,KOH,6,1,two-electrode system
+DOI: 10.1002/slct.201803149,0 to 1.2,0,1.2,1.2,10,36,,,,TiO2 NWs-RGO,,,,,,,,,,two-electrode system
+DOI: 10.1002/slct.201803149,0 to 1.2,0,1.2,1.2,1,45.7,,,,TiO2 NWs-RGO,,,,,,,,,,two-electrode system
+DOI: 10.1002/slct.201803149,0 to 0.4,0,0.4,0.4,1,202.5,,,,TiO2 NWs-RGO,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1002/slct.202002801,0 to 0.8,0,0.8,0.8,1,680,,,,PANI NWAs/3D graphene,,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/slct.202002801,0 to 0.8,0,0.8,0.8,1,72.3,,,,1.0-3# composite,,,,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1002/slct.202104402,-0.2 to 0.7,-0.2,0.7,0.9,1,762,,,,PANI(HNTs)-rGO,,,,2.41,93.64,3.46,H2SO4,7,1,three-electrode system
+DOI: 10.1002/slct.202104402,-0.2 to 0.7,-0.2,0.7,0.9,2,660,,,,PANI(HNTs)-rGO,,,,2.41,93.64,3.46,H2SO4,7,1,three-electrode system
+DOI: 10.1002/slct.202104402,-0.2 to 0.7,-0.2,0.7,0.9,5,595,,,,PANI(HNTs)-rGO,,,,2.41,93.64,3.46,H2SO4,7,1,three-electrode system
+DOI: 10.1002/slct.202104402,-0.2 to 0.7,-0.2,0.7,0.9,10,545,,,,PANI(HNTs)-rGO,,,,2.41,93.64,3.46,H2SO4,7,1,three-electrode system
+DOI: 10.1002/slct.202104402,-0.2 to 0.7,-0.2,0.7,0.9,20,493,,,,PANI(HNTs)-rGO,,,,2.41,93.64,3.46,H2SO4,7,1,three-electrode system
+DOI: 10.1002/cnma.201600107,-0.8 to 0,-0.8,0,0.8,10,101.7,,1.50,2.40,3DG-N-Ox,,,,0,89.9,10.1,KOH,6,3,three-electrode system
+DOI: 10.1002/cnma.201600107,-0.8 to 0,-0.8,0,0.8,0.5,124.7,,1.50,2.40,3DG-N-Ox,,,,0,89.9,10.1,KOH,6,3,three-electrode system
+DOI: 10.1002/cssc.201402045,0 to 0.8,0,0.8,0.8,,,,,,VGNS/CNTs,,,,,,,Na2SO4,3,0.1,three-electrode system
+DOI: 10.1002/cjoc.201500595,0 to 1,0,1,1,1,310,,,,Ruthenium oxide/reduced graphene oxide nanoribbon composite (RuO2/rGONR-1),,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/cjoc.201500595,0 to 1,0,1,1,1,480,,,,Ruthenium oxide/reduced graphene oxide nanoribbon composite (RuO2/rGONR-2),,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/cjoc.201500595,0 to 1,0,1,1,1,677,,,,Ruthenium oxide/reduced graphene oxide nanoribbon composite (RuO2/rGONR-3),,,1.13,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/cjoc.201500595,0 to 1,0,1,1,1,518,,,,Ruthenium oxide/reduced graphene oxide nanoribbon composite (RuO2/rGONR-4),,,,,,,H2SO4,7,1,three-electrode system
+DOI: 10.1002/cjoc.201500595,0 to 1.1,0,1.1,1.1,1,119.1,,,,Ruthenium oxide/reduced graphene oxide nanoribbon composite (RuO2/rGONR),,,1.13,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1002/cjoc.201500595,0 to 1.1,0,1.1,1.1,20,96.4,,,,Ruthenium oxide/reduced graphene oxide nanoribbon composite (RuO2/rGONR),,,1.13,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1002/cjoc.201500700,-1 to 0,-1,0,1,2.5,264,,,,Fe2O3/CCG (RFe/GO=1:3),,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1002/cjoc.201500700,-1 to 0,-1,0,1,37.5,196,,,,Fe2O3/CCG (RFe/GO=1:3),,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1002/cjoc.201500700,-1 to 0,-1,0,1,0.6,114,,,,Fe2O3/CCG (RFe/GO=1:10),,,,,,,KOH,6,2,three-electrode system
+DOI: 10.1002/elan.202060262,0 to 0.7,0,0.7,0.7,1,975,,,,Co3O4@GO,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1002/elan.202060262,0 to 0.7,0,0.7,0.7,1,1358,,,,mnO2@GO,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1002/elan.202060262,0 to 0.7,0,0.7,0.7,1,1718,,,,Co3O4/mnO2@GO,,,,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1002/ente.201500059,0 to 0.8,0,0.8,0.8,0.1,67.1,,,,reduced graphene oxide/vanadium pentoxide (GV-1),,,1.28,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1002/ente.201500059,0 to 0.8,0,0.8,0.8,0.1,109.2,,,,reduced graphene oxide/vanadium pentoxide (GV-2),,,1.26,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1002/ente.201500059,0 to 0.8,0,0.8,0.8,0.1,226.6,,,,reduced graphene oxide/vanadium pentoxide (GV-3),,,1.24,,,,Na2SO4,3,1,three-electrode system
+DOI: 10.1002/ente.201500059,0 to 1.6,0,1.6,1.6,0.1,35,,,,G-V2O5,,,,,,,Na2SO4,3,1,two-electrode system
+DOI: 10.1002/er.7173,-1 to 0,-1,0,1,1,260,,,,C-SrGO,,,0.94,0.61,84.24,12.83,KOH,6,6,three-electrode system
+DOI: 10.1002/er.7173,-1 to 0,-1,0,1,2,241.8,,,,C-SrGO,,,0.94,0.61,84.24,12.83,KOH,6,6,three-electrode system
+DOI: 10.1002/er.7173,-1 to 0,-1,0,1,3,235.5,,,,C-SrGO,,,0.94,0.61,84.24,12.83,KOH,6,6,three-electrode system
+DOI: 10.1002/er.7173,-1 to 0,-1,0,1,5,227,,,,C-SrGO,,,0.94,0.61,84.24,12.83,KOH,6,6,three-electrode system
+DOI: 10.1002/er.7173,-1 to 0,-1,0,1,7,221.41,,,,C-SrGO,,,0.94,0.61,84.24,12.83,KOH,6,6,three-electrode system
+DOI: 10.1002/er.7173,-1 to 0,-1,0,1,10,216.3,,,,C-SrGO,,,0.94,0.61,84.24,12.83,KOH,6,6,three-electrode system
+DOI: 10.1002/er.7173,-1 to 0,-1,0,1,1,189.4,,,,C-HrGO,,,0.99,2.29,83.77,13.03,KOH,6,6,three-electrode system
+DOI: 10.1002/er.7173,0 to 1,0,1,1,1,267.39,,,,C-SrGO,,,0.94,0.61,84.24,12.83,,,,two-electrode system
+DOI: 10.1002/er.7173,0 to 1,0,1,1,20,135.37,,,,C-SrGO,,,0.94,0.61,84.24,12.83,,,,two-electrode system
+DOI: 10.1002/pat.5670,0 to 0.8,0,0.8,0.8,1,322.5,82.8,0.75,1.16,PANI/N-rGO,11.73,0.21,,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1002/pat.5670,0 to 0.8,0,0.8,0.8,1,252.5,59.21,1.60,1.21,PANI/rGO,12.86,0.19,,,,,H2SO4,7,1,two-electrode system
+DOI: 10.1002/aenm.201300431,0 to 0.8,0,0.8,0.8,1.5,146,,,,VGNS grown at 80% H2 ,,,1.1,,,,Na2SO4,3,0.1,three-electrode system
+DOI: 10.1002/aenm.201300431,0 to 0.8,0,0.8,0.8,1.5,122,,,,VGNS grown at 40% H2 ,,,2.2,,,,Na2SO4,3,0.1,three-electrode system
+DOI: 10.1002/aenm.201501745,0 to 0.5,0,0.5,0.5,2,2077.5,85.85,,,LDHGOS,,0.461,,0,1.4,26.7,KOH,6,2,three-electrode system
+DOI: 10.1002/aenm.201501745,0 to 0.5,0,0.5,0.5,1,2246.63,85.85,,,LDHGOS,,0.461,,0,1.4,26.7,KOH,6,2,three-electrode system
+DOI: 10.1002/aenm.201501745,0 to 0.5,0,0.5,0.5,10,1670.83,85.85,,,LDHGOS,,0.461,,0,1.4,26.7,KOH,6,2,three-electrode system
+DOI: 10.1002/aenm.201501745,0 to 0.5,0,0.5,0.5,20,1333.33,85.85,,,LDHGOS,,0.461,,0,1.4,26.7,KOH,6,2,three-electrode system
+DOI: 10.1002/aenm.201600341,0 to 0.4,0,0.4,0.4,1,1141,,,,CoNi2S4-G-moSe2,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1002/aenm.201600341,0 to 0.4,0,0.4,0.4,2,1046,,,,CoNi2S4-G-moSe2,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1002/aenm.201600341,0 to 0.4,0,0.4,0.4,5,961,,,,CoNi2S4-G-moSe2,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1002/aenm.201600341,0 to 0.4,0,0.4,0.4,10,771,,,,CoNi2S4-G-moSe2,,,,,,,KOH,6,6,three-electrode system
+DOI: 10.1002/aenm.201600341,0 to 0.4,0,0.4,0.4,20,580,,,,CoNi2S4-G-moSe2,,,,,,,KOH,6,6,three-electrode system
